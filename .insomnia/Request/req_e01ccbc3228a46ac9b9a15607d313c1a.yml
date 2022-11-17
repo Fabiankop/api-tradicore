@@ -1,0 +1,30 @@
+_id: req_e01ccbc3228a46ac9b9a15607d313c1a
+type: Request
+parentId: fld_0ff7e86f8b0f4abf81bc2136cbf3f756
+modified: 1654191096303
+created: 1652761960198
+url: "{{ _.URL }}/persona/3a8dc093-10f9-42c8-ac36-9ecb0e28e494/prestador/"
+name: Personas - Prestador
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_86b0beabc4b34c80af191980988520a8
+  - id: pair_c605f108dc614f6688bb9aa70dfdaaed
+    name: id
+    value: 3a8dc093-10f9-42c8-ac36-9ecb0e28e494
+    description: ""
+authentication: {}
+metaSortKey: -1652761931737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

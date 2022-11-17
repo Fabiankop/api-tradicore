@@ -1,0 +1,16 @@
+_id: env_24880616d3e94bacb64dcec6da12fbd3
+type: Environment
+parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
+modified: 1668524190584
+created: 1652510043656
+name: Local Traditum
+data:
+  base_url: http://127.0.0.1:8008/v1
+  id_financiador: 69633cef-cd44-4ce2-ae8c-3000b61c6849
+dataPropertyOrder:
+  "&":
+    - base_url
+    - id_financiador
+color: "#20b503"
+isPrivate: false
+metaSortKey: 1652510043656

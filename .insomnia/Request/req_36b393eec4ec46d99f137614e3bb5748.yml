@@ -1,0 +1,25 @@
+_id: req_36b393eec4ec46d99f137614e3bb5748
+type: Request
+parentId: fld_0f3b0a2d3f6d438caf3dd5aa497495d4
+modified: 1660851320133
+created: 1660081681718
+url: https://nominatim.openstreetmap.org/search/calle%2081?format=json&addressdetails=1
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d343f7591e9a41f1a794fa06d671924e
+    name: Accept-Language
+    value: es
+    description: ""
+authentication: {}
+metaSortKey: -1660081681718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_8c0400f630ad4f758f95535f5dc2106e
+type: Request
+parentId: fld_df2bcccadf764533a3fa2555ace14989
+modified: 1668691105366
+created: 1668608049910
+url: "{{ _.base_url }}/financiadoras/-{{ _.id_financiador }}/planes/"
+name: Create Plan
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre": "caslos",
+    	"f_alta": "2022-06-08",
+    	"activo": false,
+    	"url_imagen": "imagen_test",
+    	"descripcion": "este es un plan test",
+    	"duracion": "23"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668608049910
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

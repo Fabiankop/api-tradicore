@@ -1,0 +1,21 @@
+_id: req_402fcfcf50a6413c8c2ac619736470ff
+type: Request
+parentId: fld_0ff7e86f8b0f4abf81bc2136cbf3f756
+modified: 1652761935877
+created: 1651769885649
+url: "{{ _.URL }}/personas"
+name: Obtener personas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652761931687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

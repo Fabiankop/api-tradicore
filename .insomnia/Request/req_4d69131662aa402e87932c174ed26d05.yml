@@ -1,0 +1,21 @@
+_id: req_4d69131662aa402e87932c174ed26d05
+type: Request
+parentId: fld_df2bcccadf764533a3fa2555ace14989
+modified: 1668608001913
+created: 1668523919806
+url: "{{ _.base_url }}/financiadoras/-{{ _.id_financiador }}/planes/"
+name: All Planes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668523919806
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

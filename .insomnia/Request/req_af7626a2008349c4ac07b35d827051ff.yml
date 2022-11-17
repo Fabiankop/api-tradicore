@@ -1,0 +1,30 @@
+_id: req_af7626a2008349c4ac07b35d827051ff
+type: Request
+parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
+modified: 1664207778201
+created: 1663255721088
+url: "{{ _.URL
+  }}/v1/financiadoras/afiliaciones/3cdc9807-421a-4abb-bfe1-e19fc28e6d8b"
+name: Get Afiliacion by ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_cd4e735f93cd4c21b1fe5fdc53d587d7
+    name: skip
+    value: "0"
+    description: ""
+  - id: pair_38073a688dc541e68d9be19061b84625
+    name: limit
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1663255721088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
