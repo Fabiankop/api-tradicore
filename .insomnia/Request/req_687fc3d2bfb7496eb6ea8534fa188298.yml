@@ -1,9 +1,9 @@
-_id: req_556f7f1a1ea94ad296a2126585c6004a
+_id: req_687fc3d2bfb7496eb6ea8534fa188298
 type: Request
-parentId: wrk_2da635d4aaa84da9b32fbdd852ed96d1
-modified: 1662753477978
-created: 1662753476070
-url: https://restcountries.eu/rest/v2/
+parentId: fld_482702db57e64e40b79b582fc4571339
+modified: 1669126844506
+created: 1669126844506
+url: ""
 name: New Request
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1662753476070
+metaSortKey: -1669126844506
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
