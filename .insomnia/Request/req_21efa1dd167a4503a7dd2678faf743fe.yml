@@ -1,0 +1,23 @@
+_id: req_21efa1dd167a4503a7dd2678faf743fe
+type: Request
+parentId: fld_911ddeec6def453585f55346ebd845f7
+modified: 1669127208527
+created: 1669127094140
+url: "{{ _.base_url
+  }}/prestadores/prestador/perfil/datos-personales?id_prestador={{
+  _.id_prestador }}"
+name: Datos personales
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669127094140
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
