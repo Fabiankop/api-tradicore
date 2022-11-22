@@ -1,17 +1,17 @@
-_id: req_4d69131662aa402e87932c174ed26d05
+_id: req_ded440456051404888e9f1b8bf274b9a
 type: Request
-parentId: fld_df2bcccadf764533a3fa2555ace14989
-modified: 1669122844326
-created: 1668523919806
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/planes/"
-name: All Planes
+parentId: fld_30c1d70cf21e456c9ecfc7297f13f7dd
+modified: 1669123125451
+created: 1669122887966
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/programas"
+name: All Programas
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668523919806
+metaSortKey: -1669122887966
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
