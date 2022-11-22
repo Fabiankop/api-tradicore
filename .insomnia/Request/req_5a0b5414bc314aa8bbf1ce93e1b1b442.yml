@@ -1,12 +1,12 @@
 _id: req_5a0b5414bc314aa8bbf1ce93e1b1b442
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1669126511853
+modified: 1669128161550
 created: 1663685342994
-url: "{{ _.URL
-  }}/v1/financiadoras/00662749-b8f3-4783-a9c1-31b26a99262c/afiliaciones/3cdc980\
-  7-421a-4abb-bfe1-e19fc28e6d8b"
-name: New Request
+url: "{{ _.base_url }}/v1/financiadoras/{{ _.id_financiador
+  }}/afiliaciones/3cdc9807-421a-4abb-bfe1-e19fc28e6d8b
+  3cdc9807-421a-4abb-bfe1-e19fc28e6d8b"
+name: Update Afiliacion
 description: ""
 method: PUT
 body:

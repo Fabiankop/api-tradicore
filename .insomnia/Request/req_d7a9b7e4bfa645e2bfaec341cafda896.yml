@@ -1,17 +1,17 @@
-_id: req_687fc3d2bfb7496eb6ea8534fa188298
+_id: req_d7a9b7e4bfa645e2bfaec341cafda896
 type: Request
 parentId: fld_482702db57e64e40b79b582fc4571339
-modified: 1669128209405
-created: 1669126844506
-url: "{{ _.base_url }}/paises"
-name: Get paises
+modified: 1669129840210
+created: 1669128898793
+url: "{{ _.base_url }}/paises/{{ _.id_pais }}/estados"
+name: Get estados
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669126844506
+metaSortKey: -1669124866236
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
