@@ -1,10 +1,9 @@
 _id: req_b18b80bbb5b94b818382a53fb96aea08
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1662660202777
+modified: 1669211399030
 created: 1662659271182
-url: "{{ _.URL
-  }}/v1/financiadoras/00662749-b8f3-4783-a9c1-31b26a99262c/afiliaciones/"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: "Get afiliaciones "
 description: ""
 method: GET
