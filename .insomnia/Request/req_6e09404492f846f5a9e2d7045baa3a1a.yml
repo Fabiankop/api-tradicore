@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1670248488862
+modified: 1671023551909
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
