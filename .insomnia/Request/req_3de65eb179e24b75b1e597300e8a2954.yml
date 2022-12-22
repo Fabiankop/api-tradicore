@@ -1,0 +1,22 @@
+_id: req_3de65eb179e24b75b1e597300e8a2954
+type: Request
+parentId: fld_acbbff5bb4c24461ae2dc5a90f8ca5eb
+modified: 1671210617621
+created: 1671210445283
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/pacientes/{{
+  _.id_afiliacion }}"
+name: Get DP Paciente
+description: Obtiene los datos personales de un paciente
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671210445283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
