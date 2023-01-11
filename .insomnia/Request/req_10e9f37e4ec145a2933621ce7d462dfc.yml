@@ -1,17 +1,17 @@
-_id: req_b18b80bbb5b94b818382a53fb96aea08
+_id: req_10e9f37e4ec145a2933621ce7d462dfc
 type: Request
-parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1671024973870
-created: 1662659271182
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
-name: "Get afiliaciones "
+parentId: fld_565f5854ccb74e4b8b5ff9892d5d1756
+modified: 1669128288435
+created: 1669128229025
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/prestadores"
+name: Prestadores
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1662659122649
+metaSortKey: -1663644770964
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

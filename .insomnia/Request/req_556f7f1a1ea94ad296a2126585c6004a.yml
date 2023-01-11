@@ -1,17 +1,17 @@
-_id: req_b18b80bbb5b94b818382a53fb96aea08
+_id: req_556f7f1a1ea94ad296a2126585c6004a
 type: Request
-parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1671024973870
-created: 1662659271182
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
-name: "Get afiliaciones "
+parentId: wrk_2da635d4aaa84da9b32fbdd852ed96d1
+modified: 1662753477978
+created: 1662753476070
+url: https://restcountries.eu/rest/v2/
+name: New Request
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1662659122649
+metaSortKey: -1662753476070
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

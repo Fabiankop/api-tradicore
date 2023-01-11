@@ -1,17 +1,17 @@
-_id: req_b18b80bbb5b94b818382a53fb96aea08
+_id: req_c14f124848974adbaf79b75662448fda
 type: Request
-parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1671024973870
-created: 1662659271182
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
-name: "Get afiliaciones "
+parentId: fld_911ddeec6def453585f55346ebd845f7
+modified: 1669141220325
+created: 1669128035701
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/pacientes?skip=0&limit=20"
+name: Pacientes
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1662659122649
+metaSortKey: -1669128035701
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
