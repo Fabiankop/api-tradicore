@@ -1,9 +1,10 @@
 _id: req_2989c9b6716543c2be46ebe2331feac0
 type: Request
 parentId: fld_565f5854ccb74e4b8b5ff9892d5d1756
-modified: 1664724168082
+modified: 1670334830089
 created: 1663644771014
-url: "{{ _.URL }}/v1/financiadoras/00662749-b8f3-4783-a9c1-31b26a99262c/prestadores"
+url: "{{ _.base_url
+  }}/financiadoras/00662749-b8f3-4783-a9c1-31b26a99262c/prestadores"
 name: Create Prestador
 description: ""
 method: POST

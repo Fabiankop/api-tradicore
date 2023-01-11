@@ -1,7 +1,7 @@
 _id: req_8c0400f630ad4f758f95535f5dc2106e
 type: Request
 parentId: fld_df2bcccadf764533a3fa2555ace14989
-modified: 1669125697386
+modified: 1673285442858
 created: 1668608049910
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/planes/"
 name: Create Plan
@@ -11,14 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nombre": "caslos",
-    	"f_alta": "2022-06-08",
-    	"activo": false,
+    	"nombre": "Plan Test #5",
+    	"f_alta": "2023-01-07",
+    	"f_baja": "2023-01-09",
     	"url_imagen": "imagen_test",
     	"edad_desde": 12,
     	"edad_hasta": 23,
-    	"descripcion": "este es un plan test",
-    	"duracion": "23"
+    	"descripcion": "este es un plan test"
     }
 parameters: []
 headers:

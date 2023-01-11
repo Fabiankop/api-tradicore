@@ -1,10 +1,9 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1669128180024
+modified: 1671023551909
 created: 1662659122599
-url: "{{ _.base_url
-  }}/financiadoras/69633cef-cd44-4ce2-ae8c-3000b61c6849/afiliaciones/"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
 description: ""
 method: POST
@@ -12,20 +11,20 @@ body:
   mimeType: application/json
   text: >-
     {
-      "codigo": "6233",
+    	"codigo": "12876",
       "f_alta": "2022-09-12",
       "id_titular": "1234567",
       "persona": {
         "nombre": "dilian",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "testtest2d7@hotmail.com",
+        "email": "tes455@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
           {
-            "valor": "362fdd4",
+            "valor": "5647",
             "id_param_tipodoc": "dni",
             "f_desde": "1992-09-12",
             "f_hasta": "2023-09-12"
@@ -64,10 +63,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "jua144425@gmail.com",
+            "email": "ju321215@gmail.com",
     				"documentos": [
               {
-                "valor": "45dd27797",
+                "valor": "4587",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -80,9 +79,9 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "jo1@gmail.com"
+    				"email": "jo83331@gmail.com"
     			},
-          "cbu": "41566547"
+          "cbu": "4159847"
           
         }
       },
@@ -101,14 +100,14 @@ body:
         "f_hasta": "2022-09-13",
         "empresa": {
           "id_param_tipodoc": "cuit-cuil",
-          "numero_documento": "12374242",
-          "razon_social": "test"
-        },
-    		"domicilio": {
-          "direccion": "avenida siempre viva",
-          "codigo_postal": "uss344",
-          "id_admin_param_ciudad": "1",
-          "geo_code": "45567567"
+          "numero_documento": "12842",
+          "razon_social": "test",
+    			"domicilios": [{
+    				"direccion": "avenida siempre viva",
+    				"codigo_postal": "uss344",
+    				"id_admin_param_ciudad": "1",
+    				"geo_code": "45567567"
+    			}]
         }
       }
     }
