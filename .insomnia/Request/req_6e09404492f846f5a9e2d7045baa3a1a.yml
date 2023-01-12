@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1671023551909
+modified: 1673501734336
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
@@ -11,23 +11,22 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"codigo": "12876",
-      "f_alta": "2022-09-12",
-      "id_titular": "1234567",
       "persona": {
         "nombre": "dilian",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "tes455@hotmail.com",
+        "email": "tes455r@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
+    			{
+            "valor": "56474",
+            "id_param_tipodoc": "cuit-cuil"
+          },
           {
-            "valor": "5647",
-            "id_param_tipodoc": "dni",
-            "f_desde": "1992-09-12",
-            "f_hasta": "2023-09-12"
+            "valor": "56473",
+            "id_param_tipodoc": "dni"
           }
         ],
         "fotos": [
@@ -63,10 +62,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "ju321215@gmail.com",
+            "email": "ju3@gmail.com",
     				"documentos": [
               {
-                "valor": "4587",
+                "valor": "4585",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -79,7 +78,7 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "jo83331@gmail.com"
+    				"email": "jo8@gmail.com"
     			},
           "cbu": "4159847"
           
@@ -109,7 +108,10 @@ body:
     				"geo_code": "45567567"
     			}]
         }
-      }
+      },
+    	"codigo": "12876444",
+      "f_alta": "2022-09-12",
+      "id_titular": "1234567"
     }
 parameters: []
 headers:
