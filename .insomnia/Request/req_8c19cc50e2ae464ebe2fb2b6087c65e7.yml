@@ -1,0 +1,21 @@
+_id: req_8c19cc50e2ae464ebe2fb2b6087c65e7
+type: Request
+parentId: fld_2bc4ff0a7a184269b544893cc020f901
+modified: 1673578301330
+created: 1673578260945
+url: "{{ _.base_url }}/financiadoras/"
+name: Get Financiadoras
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673578260945
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
