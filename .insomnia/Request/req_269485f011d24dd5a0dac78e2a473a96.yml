@@ -1,15 +1,27 @@
 _id: req_269485f011d24dd5a0dac78e2a473a96
 type: Request
 parentId: fld_30c1d70cf21e456c9ecfc7297f13f7dd
-modified: 1673637772048
+modified: 1673637888621
 created: 1673637735865
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/programas/"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/programas/{{
+  _.id_programa }}/"
 name: Update Programa
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "nombre": "cambio de prueba",
+      "descripcion": "sisisi",
+      "activo": true,
+      "duracion": 4,
+      "f_alta": "2023-01-13"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1673637735865
 isPrivate: false
