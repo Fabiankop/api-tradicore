@@ -1,0 +1,21 @@
+_id: req_269485f011d24dd5a0dac78e2a473a96
+type: Request
+parentId: fld_30c1d70cf21e456c9ecfc7297f13f7dd
+modified: 1673637772048
+created: 1673637735865
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/programas/"
+name: Update Programa
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673637735865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
