@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673622939524
+modified: 1673673512383
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
@@ -15,17 +15,17 @@ body:
         "nombre": "dilian",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "tegjose4p@hotmail.com",
+        "email": "tegrjose@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
     			{
-            "valor": "52421312",
+            "valor": "51312",
             "id_param_tipodoc": "cuit-cuil"
           },
           {
-            "valor": "83232141",
+            "valor": "82141",
             "id_param_tipodoc": "dni"
           }
         ],
@@ -63,10 +63,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "j3r321e@gmail.com",
+            "email": "j3rrjoee@gmail.com",
     				"documentos": [
               {
-                "valor": "2912544",
+                "valor": "2544",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -79,7 +79,7 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "ger124d@gmail.com"
+    				"email": "gerrd@gmail.com"
     			},
           "cbu": "4159847"
           
