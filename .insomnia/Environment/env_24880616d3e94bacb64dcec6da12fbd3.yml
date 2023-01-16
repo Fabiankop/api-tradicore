@@ -1,7 +1,7 @@
 _id: env_24880616d3e94bacb64dcec6da12fbd3
 type: Environment
 parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
-modified: 1673891905298
+modified: 1673892209908
 created: 1652510043656
 name: Local Traditum
 data:
@@ -13,6 +13,7 @@ data:
   id_pais: 1
   id_estado: 1
   id_programa: 5b8fd2b5-5225-423e-b969-47a273974451
+  id_adherente: 8296a271-3d0b-4a0b-ae0f-dc3295caa955
 dataPropertyOrder:
   "&":
     - base_url
@@ -23,6 +24,7 @@ dataPropertyOrder:
     - id_pais
     - id_estado
     - id_programa
+    - id_adherente
 color: "#ffa305"
 isPrivate: false
 metaSortKey: 1652510043656
