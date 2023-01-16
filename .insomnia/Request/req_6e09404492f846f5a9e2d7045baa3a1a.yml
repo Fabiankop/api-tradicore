@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673673512383
+modified: 1673882573816
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
@@ -12,20 +12,20 @@ body:
   text: >-
     {
       "persona": {
-        "nombre": "dilian",
+        "nombre": "juan",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "tegrjose@hotmail.com",
+        "email": "temas2e@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
     			{
-            "valor": "51312",
+            "valor": "42",
             "id_param_tipodoc": "cuit-cuil"
           },
           {
-            "valor": "82141",
+            "valor": "41",
             "id_param_tipodoc": "dni"
           }
         ],
@@ -43,7 +43,7 @@ body:
           }
         ]
       },
-    	"es_estudiante": true,
+    	"estudiante": true,
     	"coberturas": [
         {
           "id_motivobaja": "1",
@@ -63,10 +63,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "j3rrjoee@gmail.com",
+            "email": "j3mas9e@gmail.com",
     				"documentos": [
               {
-                "valor": "2544",
+                "valor": "44",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -79,7 +79,7 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "gerrd@gmail.com"
+    				"email": "gmasd@gmail.com"
     			},
           "cbu": "4159847"
           
