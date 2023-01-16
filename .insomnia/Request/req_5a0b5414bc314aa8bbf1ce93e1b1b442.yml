@@ -14,6 +14,7 @@ body:
     {
     	"f_alta": "2022-09-12",
     	"persona": {
+    		"estudiante": false,
     		"nombre": "dilian",
     		"apellido": "arango",
     		"email": "tegrjose@hotmail.com",
@@ -79,6 +80,7 @@ body:
     		"pagos": {
     			"id": "637bf4ba-c1d8-48a2-89f2-02e5723e14af",
     			"persona": {
+    				"estudiante": false,
     				"nombre": "juantest",
     				"apellido": "peretestz",
     				"email": "j3rrjoee@gmail.com",
@@ -105,6 +107,7 @@ body:
     		"reintegros": {
     			"id": "2a3631fc-1da8-4e23-a624-3d28407b1fb1",
     			"persona": {
+    				"estudiante": false,
     				"nombre": "josteste",
     				"apellido": "conte",
     				"email": "gerrd@gmail.com",
