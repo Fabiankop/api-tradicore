@@ -1,14 +1,14 @@
 _id: env_24880616d3e94bacb64dcec6da12fbd3
 type: Environment
 parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
-modified: 1673892209908
+modified: 1673903128985
 created: 1652510043656
 name: Local Traditum
 data:
   base_url: http://127.0.0.1:8008/v1
   id_financiador: 69633cef-cd44-4ce2-ae8c-3000b61c6849
   id_prestador: 0bdb5ecc-b486-46bd-957b-3dc7613b7c50
-  id_afiliacion: e278bb24-249d-4329-888c-86d1b0baf254
+  id_afiliacion: 4a6924c5-619b-4b8d-85cf-75479227c76e
   id_plan: c479d310-4bac-4465-a55d-ad2a15be283a
   id_pais: 1
   id_estado: 1

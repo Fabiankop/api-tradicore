@@ -1,11 +1,10 @@
 _id: req_5a0b5414bc314aa8bbf1ce93e1b1b442
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673644903419
+modified: 1673889569667
 created: 1663685342994
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
-  }}/afiliaciones/3cdc9807-421a-4abb-bfe1-e19fc28e6d8b
-  3cdc9807-421a-4abb-bfe1-e19fc28e6d8b"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/{{
+  _.id_afiliacion }}"
 name: Update Afiliacion
 description: ""
 method: PUT
@@ -17,43 +16,39 @@ body:
     	"persona": {
     		"estudiante": false,
     		"nombre": "dilian",
-    		"apellido": "ruiz",
-    		"sexo": "masculino",
-    		"email": "w13@hotmail.com",
-    		"estado_civil": "casada",
-    		"f_nacimiento": "1992-09-12",
+    		"apellido": "arango",
+    		"email": "tegrjose@hotmail.com",
     		"telefono": "312456655",
+    		"id": "b116113b-fdef-4f07-af89-4c0c2d5cfa76",
     		"documentos": [
     			{
-    				"valor": "3692",
-    				"id_param_tipodoc": "dni",
-    				"f_desde": "1992-09-12",
-    				"f_hasta": "2023-09-12",
-    				"id": "a07034e7-a23c-4793-b221-0e4f0e0e5b54"
+    				"valor": "51312",
+    				"id_param_tipodoc": "cuit-cuil",
+    				"id": "a20edcef-a81c-48ae-a040-e1c0b1429cd6"
     			},
     			{
-    				"valor": "36926",
+    				"valor": "82141",
     				"id_param_tipodoc": "dni",
-    				"f_desde": "1992-09-12",
-    				"f_hasta": "2023-09-12",
-    				"id": ""
+    				"id": "e37aefc8-06bf-4ab4-8408-c604c106eefe"
     			}
     		],
+    		"sexo": "masculino",
     		"fotos": [
     			{
     				"url": "https://i.pinimg.com/564x/93/4c/0a/934c0a6a95b1f80ff49ca1cbefd1006a.jpg",
-    				"id": "ab00b03b-4151-498f-9e7d-5b8ad48987e9"
+    				"id": "0aa2d85c-54bd-4347-a718-0e8f45c35b7b"
     			}
     		],
     		"domicilios": [
     			{
-    				"direccion": "avenida siempre viva",
+    				"direccion": "cra 145 #123 45",
     				"codigo_postal": "6598",
     				"id_admin_param_ciudad": "1",
     				"geo_code": "987788",
-    				"id": "c4abf07e-9abf-46c5-9969-fba8ad7f8f57",
+    				"id_param_tipo_domicilio": null,
+    				"id": "fcba97a5-4e05-450b-a8e5-cf629000abdb",
     				"ciudad": {
-    					"nombre": "ALBERTI",
+    					"nombre": "Alberti",
     					"id": "1",
     					"estado": {
     						"nombre": "Buenos Aires",
@@ -67,81 +62,94 @@ body:
     				}
     			}
     		],
-    		"id": "92cea3b7-4178-41e9-a057-458442a4ac74"
+    		"nacionalidades": []
     	},
     	"planes": [
     		{
-    			"id_financiadora_plan": "849071cb-86b8-451c-a5a0-e87f43e0619b",
-    			"id": "57cce899-328e-4b16-bc01-5185ab2691f3"
+    			"id_financiadora_plan": "1",
+    			"id": "977d45e4-e19e-4452-bff0-195298432692"
     		}
     	],
-    	"id": "3cdc9807-421a-4abb-bfe1-e19fc28e6d8b",
-    	"codigo": "323",
-    	"id_titular": "1234",
-    	"preexistencias": {
-    		"id_diagnostico": "7778",
-    		"observaciones": "observaciones de test",
-    		"f_activo_desde": "2022-09-12",
-    		"f_activo_baja": "2023-09-12",
-    		"id": "c42f8a35-a8e6-4baa-b61c-c2c8c170beba"
-    	},
+    	"id": "2dab41d0-14ea-47d2-91c3-c7b7e85af8a2",
+    	"codigo": "0000000000000181",
+    	"id_titular": "1234567",
+    	"preexistencias": null,
     	"familiares": null,
     	"responsable_pago": {
-    		"id": "e7e7ba15-ccbb-4a21-b25a-7da529d584ae",
     		"id_tipo_parentesco": "1",
     		"pagos": {
+    			"id": "637bf4ba-c1d8-48a2-89f2-02e5723e14af",
     			"persona": {
     				"estudiante": false,
     				"nombre": "juantest",
     				"apellido": "peretestz",
+    				"email": "j3rrjoee@gmail.com",
     				"telefono": "456456868968",
-    				"email": "jua2931@gmail.com",
+    				"id": "16ed9521-3dc5-45a6-8008-fb905b0576d0",
     				"documentos": [
     					{
-    						"valor": "456629",
-    						"id_param_tipodoc": "cuit-cuil"
+    						"valor": "2544",
+    						"id_param_tipodoc": "cuit-cuil",
+    						"id": "efc0e44d-381a-4709-93c0-64cbca70b12f"
     					}
     				],
-    				"id": "ff4897a0-1122-41a8-be77-d2915b1e2d41"
+    				"sexo": null,
+    				"fotos": [],
+    				"domicilios": [],
+    				"nacionalidades": []
     			},
-    			"condicion_iva": "iva incluido",
     			"id_medio_pago": "1",
-    			"id": "5bf05ea9-64a9-4d78-8ce4-be5bcb0186af"
+    			"cbu": null,
+    			"condicion_iva": "iva incluido",
+    			"nombre_banco": null,
+    			"pago_electronico": null
     		},
     		"reintegros": {
+    			"id": "2a3631fc-1da8-4e23-a624-3d28407b1fb1",
     			"persona": {
     				"estudiante": false,
     				"nombre": "josteste",
     				"apellido": "conte",
+    				"email": "gerrd@gmail.com",
     				"telefono": "222222222",
-    				"email": "jo21@gmail.com",
-    				"id": "c8895a77-6090-4f11-8e23-072b756d67f6"
+    				"id": "c825eb26-1d34-4930-abd3-bc59212348e5",
+    				"documentos": [],
+    				"sexo": null,
+    				"fotos": [],
+    				"domicilios": [],
+    				"nacionalidades": []
     			},
-    			"cbu": "41566656",
-    			"id": "22652aea-14e5-4f60-94bb-eec80f060a3e"
+    			"id_medio_pago": null,
+    			"cbu": "4159847",
+    			"condicion_iva": null,
+    			"nombre_banco": null,
+    			"pago_electronico": null
+    		},
+    		"id": "062d4bbe-2e7e-495d-a1c9-ac7fd9bea60e"
+    	},
+    	"coberturas": [
+    		{
+    			"id_motivobaja": "1",
+    			"id_financiadora": "45ed3d32-cf6a-4467-be66-de4b5d05a421",
+    			"numero_cobertura": "424565",
+    			"f_alta": "2022-09-13",
+    			"activo": true,
+    			"id": "f6d0b880-5c94-4524-a326-54c5f131faaa"
     		}
-    	},
-    	"coberturas": {
-    		"id_motivobaja": "777",
-    		"id_financiadora": "45ed3d32-cf6a-4467-be66-de4b5d05a421",
-    		"numero_cobertura": "4565",
-    		"f_alta": "2022-09-13",
-    		"activo": true,
-    		"id": "587cf68b-3340-43f9-872d-5a98d9d2d852"
-    	},
+    	],
     	"laboral": [
     		{
     			"id_condicion_laboral": "1",
-    			"legajo": "hackaton",
+    			"legajo": null,
     			"principal": null,
     			"f_desde": "2022-09-13",
     			"f_hasta": "2022-09-13",
-    			"id": "62447ec9-47be-4510-9115-2d6ce55e1bc8",
+    			"id": "43c8a34c-dfd1-40ac-a33f-5f804e187a70",
     			"empresas": {
     				"id_param_tipodoc": "cuit-cuil",
-    				"numero_documento": "1234242",
+    				"numero_documento": "12842",
     				"razon_social": "test",
-    				"id": "9ebb0fcd-2f40-44b0-865d-a62f5fc69070",
+    				"id": "b0b99d21-cc4f-4ae3-b96d-27718a7c00ce",
     				"domicilios": [
     					{
     						"direccion": "avenida siempre viva",
@@ -152,7 +160,8 @@ body:
     				]
     			}
     		}
-    	]
+    	],
+    	"estudiante": true
     }
 parameters: []
 headers:
