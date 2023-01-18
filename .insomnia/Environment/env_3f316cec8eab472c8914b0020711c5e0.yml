@@ -1,17 +1,19 @@
 _id: env_3f316cec8eab472c8914b0020711c5e0
 type: Environment
 parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
-modified: 1673884337832
+modified: 1673971039776
 created: 1668128649689
 name: Prod Traditum
 data:
-  base_url: https://backend-core-dev-mt7w3pb5na-uc.a.run.app/v1
+  base_url: http://127.0.0.1:8008/v1
   id_financiador: 69633cef-cd44-4ce2-ae8c-3000b61c6849
   id_prestador: 0bdb5ecc-b486-46bd-957b-3dc7613b7c50
-  id_afiliacion: f48c9099-0796-4ce5-b0ea-cbc95d4080f1
+  id_afiliacion: b1b13058-5c5d-4a5c-9594-074ad8367209
   id_plan: c479d310-4bac-4465-a55d-ad2a15be283a
   id_pais: 1
   id_estado: 1
+  id_programa: 5b8fd2b5-5225-423e-b969-47a273974451
+  id_adherente: 8296a271-3d0b-4a0b-ae0f-dc3295caa955
 dataPropertyOrder:
   "&":
     - base_url
@@ -21,6 +23,8 @@ dataPropertyOrder:
     - id_plan
     - id_pais
     - id_estado
+    - id_programa
+    - id_adherente
 color: "#20b503"
 isPrivate: false
 metaSortKey: 1668128649689

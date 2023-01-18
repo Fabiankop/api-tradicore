@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673903112159
+modified: 1674012472385
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
@@ -15,17 +15,17 @@ body:
         "nombre": "juan",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "tpsoo@hotmail.com",
+        "email": "tjajo4o@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
     			{
-            "valor": "4253310",
+            "valor": "42543936310",
             "id_param_tipodoc": "cuit-cuil"
           },
           {
-            "valor": "4813301",
+            "valor": "48143396301",
             "id_param_tipodoc": "dni"
           }
         ],
@@ -67,10 +67,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "tradi031@gmail.com",
+            "email": "tr603341@gmail.com",
     				"documentos": [
               {
-                "valor": "4463510",
+                "valor": "434633510",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -83,7 +83,7 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "gt313s@gmail.com"
+    				"email": "gtj4a3ss@gmail.com"
     			},
           "cbu": "4159847"
           
@@ -93,10 +93,7 @@ body:
         "id_diagnostico": "1",
         "observaciones": "diagnistico test",
         "f_activo_desde": "2023-01-16",
-        "f_activo_baja": "2023-01-16",
-        "programas": {
-          "id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
-        }
+    		"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
       },
     	"laboral": {
         "id_condicion_laboral": "1",
@@ -118,7 +115,10 @@ body:
     			}]
         }
       },
-      "f_alta": "2022-09-12"
+    	"afiliacion_estado": {
+    			"f_desde": "2030-01-16",
+    			"id_params_estado": "act"
+    	}
     }
 parameters: []
 headers:

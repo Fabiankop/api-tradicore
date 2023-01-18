@@ -1,7 +1,7 @@
 _id: req_5a0b5414bc314aa8bbf1ce93e1b1b442
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673889569667
+modified: 1674011315660
 created: 1663685342994
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/{{
   _.id_afiliacion }}"
@@ -12,41 +12,48 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"f_alta": "2022-09-12",
+    	"id": "fdd5d865-1d1b-435f-a6c7-7b0b83bf917e",
+    	"codigo": "0000000000000190",
+    	"id_titular": "0d804d45-385d-4a43-b769-5b2a7a0df9e6",
     	"persona": {
-    		"estudiante": false,
-    		"nombre": "dilian",
+    		"nombre": "julian",
     		"apellido": "arango",
-    		"email": "tegrjose@hotmail.com",
+    		"email": "tjaso@hotmail.com",
+    		"estado_civil": "soltero",
     		"telefono": "312456655",
-    		"id": "b116113b-fdef-4f07-af89-4c0c2d5cfa76",
+    		"sexo": "masculino",
+    		"f_nacimiento": "1992-09-12",
+    		"id": "0d804d45-385d-4a43-b769-5b2a7a0df9e6",
     		"documentos": [
     			{
-    				"valor": "51312",
+    				"valor": "425906310",
     				"id_param_tipodoc": "cuit-cuil",
-    				"id": "a20edcef-a81c-48ae-a040-e1c0b1429cd6"
+    				"id": "dc255939-2cdd-4a9d-8940-925fcd267a41"
     			},
     			{
-    				"valor": "82141",
+    				"valor": "481396319",
     				"id_param_tipodoc": "dni",
-    				"id": "e37aefc8-06bf-4ab4-8408-c604c106eefe"
+    				"id": "c7333139-9048-463a-b707-5451a8dd53b7"
     			}
     		],
-    		"sexo": "masculino",
     		"fotos": [
     			{
     				"url": "https://i.pinimg.com/564x/93/4c/0a/934c0a6a95b1f80ff49ca1cbefd1006a.jpg",
-    				"id": "0aa2d85c-54bd-4347-a718-0e8f45c35b7b"
+    				"id": "fa95a82a-778c-4dab-b5cd-e8fdce4c99b1"
     			}
     		],
     		"domicilios": [
     			{
-    				"direccion": "cra 145 #123 45",
+    				"calle": "alberti",
+    				"numeracion": "387",
+    				"piso": "2do",
+    				"departamento": "B",
+    				"descripcion": "timbre pequeno",
     				"codigo_postal": "6598",
     				"id_admin_param_ciudad": "1",
     				"geo_code": "987788",
     				"id_param_tipo_domicilio": null,
-    				"id": "fcba97a5-4e05-450b-a8e5-cf629000abdb",
+    				"id": "74a95b18-81ce-4d68-91b6-53271a71ea19",
     				"ciudad": {
     					"nombre": "Alberti",
     					"id": "1",
@@ -67,33 +74,38 @@ body:
     	"planes": [
     		{
     			"id_financiadora_plan": "1",
-    			"id": "977d45e4-e19e-4452-bff0-195298432692"
+    			"id": "9addf2dc-c93c-4b0a-a0ab-a9ccde9988cb"
     		}
     	],
-    	"id": "2dab41d0-14ea-47d2-91c3-c7b7e85af8a2",
-    	"codigo": "0000000000000181",
-    	"id_titular": "1234567",
-    	"preexistencias": null,
+    	"preexistencias": {
+    		"id_diagnostico": "1",
+    		"observaciones": "diagnistico test",
+    		"f_activo_desde": "2023-01-16",
+    		"f_activo_baja": null,
+    		"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451",
+    		"id": "40791ffc-8d49-4683-8684-484f79c83245"
+    	},
     	"familiares": null,
     	"responsable_pago": {
     		"id_tipo_parentesco": "1",
     		"pagos": {
-    			"id": "637bf4ba-c1d8-48a2-89f2-02e5723e14af",
+    			"id": "6377aa95-2bb5-4f26-905f-c8e8b22688e3",
     			"persona": {
-    				"estudiante": false,
     				"nombre": "juantest",
     				"apellido": "peretestz",
-    				"email": "j3rrjoee@gmail.com",
+    				"email": "tr6031@gmail.com",
+    				"estado_civil": null,
     				"telefono": "456456868968",
-    				"id": "16ed9521-3dc5-45a6-8008-fb905b0576d0",
+    				"sexo": null,
+    				"f_nacimiento": "2023-01-17",
+    				"id": "6386a9b4-620a-47e4-8ffa-631907e60433",
     				"documentos": [
     					{
-    						"valor": "2544",
+    						"valor": "4363510",
     						"id_param_tipodoc": "cuit-cuil",
-    						"id": "efc0e44d-381a-4709-93c0-64cbca70b12f"
+    						"id": "0210a876-af8b-4860-8099-ebd6fcaf1d05"
     					}
     				],
-    				"sexo": null,
     				"fotos": [],
     				"domicilios": [],
     				"nacionalidades": []
@@ -105,16 +117,17 @@ body:
     			"pago_electronico": null
     		},
     		"reintegros": {
-    			"id": "2a3631fc-1da8-4e23-a624-3d28407b1fb1",
+    			"id": "a4b897af-bda2-4738-9737-2596d0284ff5",
     			"persona": {
-    				"estudiante": false,
     				"nombre": "josteste",
     				"apellido": "conte",
-    				"email": "gerrd@gmail.com",
+    				"email": "gtjass@gmail.com",
+    				"estado_civil": null,
     				"telefono": "222222222",
-    				"id": "c825eb26-1d34-4930-abd3-bc59212348e5",
-    				"documentos": [],
     				"sexo": null,
+    				"f_nacimiento": "2023-01-17",
+    				"id": "392e7b1a-4a03-44c5-83db-3c94f6a9ab2b",
+    				"documentos": [],
     				"fotos": [],
     				"domicilios": [],
     				"nacionalidades": []
@@ -125,7 +138,7 @@ body:
     			"nombre_banco": null,
     			"pago_electronico": null
     		},
-    		"id": "062d4bbe-2e7e-495d-a1c9-ac7fd9bea60e"
+    		"id": "0bb96342-a5c2-4af4-b32c-267a27aaef64"
     	},
     	"coberturas": [
     		{
@@ -134,7 +147,7 @@ body:
     			"numero_cobertura": "424565",
     			"f_alta": "2022-09-13",
     			"activo": true,
-    			"id": "f6d0b880-5c94-4524-a326-54c5f131faaa"
+    			"id": "cd122522-8f61-469c-8150-9597782db56c"
     		}
     	],
     	"laboral": [
@@ -144,15 +157,19 @@ body:
     			"principal": null,
     			"f_desde": "2022-09-13",
     			"f_hasta": "2022-09-13",
-    			"id": "43c8a34c-dfd1-40ac-a33f-5f804e187a70",
+    			"id": "01b987df-ad51-41ef-bf3d-9d980519eb72",
     			"empresas": {
     				"id_param_tipodoc": "cuit-cuil",
     				"numero_documento": "12842",
     				"razon_social": "test",
-    				"id": "b0b99d21-cc4f-4ae3-b96d-27718a7c00ce",
+    				"id": "6a5ffeeb-113f-4a55-a17a-672a256582b1",
     				"domicilios": [
     					{
-    						"direccion": "avenida siempre viva",
+    						"calle": "alberti",
+    						"numeracion": "387",
+    						"piso": "2do",
+    						"departamento": "B",
+    						"descripcion": "timbre pequeno",
     						"codigo_postal": "uss344",
     						"id_admin_param_ciudad": "1",
     						"geo_code": "45567567"
@@ -161,7 +178,9 @@ body:
     			}
     		}
     	],
-    	"estudiante": true
+    	"estudiante": true,
+    	"condicion": "titular",
+    	"estado": "activo"
     }
 parameters: []
 headers:
