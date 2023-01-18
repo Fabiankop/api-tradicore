@@ -1,7 +1,7 @@
 _id: req_6b53dfcf6d474b21a90094adff7e3395
 type: Request
-parentId: fld_911ddeec6def453585f55346ebd845f7
-modified: 1674046169746
+parentId: fld_0a196aa4a4484d9abec8ec74650e1c20
+modified: 1674047254417
 created: 1674045833849
 url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/turnos"
 name: Crear Turno
@@ -21,7 +21,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669256674952.5
+metaSortKey: -1674047253074
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
