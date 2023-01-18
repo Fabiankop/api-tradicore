@@ -1,0 +1,21 @@
+_id: req_11855fd4c50e488c98d50c93f63ef2d1
+type: Request
+parentId: fld_911ddeec6def453585f55346ebd845f7
+modified: 1674046134677
+created: 1674046098039
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/turnos"
+name: Ver Turnos Disponibles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669320994578.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
