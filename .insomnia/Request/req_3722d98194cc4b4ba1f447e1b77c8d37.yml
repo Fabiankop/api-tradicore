@@ -1,0 +1,86 @@
+_id: req_3722d98194cc4b4ba1f447e1b77c8d37
+type: Request
+parentId: fld_911ddeec6def453585f55346ebd845f7
+modified: 1673981245280
+created: 1673979850696
+url: "{{ _.base_url
+  }}/prestadores/prestador/perfil/datos-personales/0bdb5ecc-b486-46bd-957b-3dc7\
+  613b7c51"
+name: Editar Datos Personales
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "persona": {
+        "nombre": "string",
+        "apellido": "string",
+        "email": "user_prueba129847125@example.com",
+        "estado_civil": "string",
+        "telefono": "string",
+        "sexo": "string",
+        "f_nacimiento": "2023-01-17",
+        "documentos": [
+          {
+            "valor": "string",
+            "id_param_tipodoc": "dni",
+            "f_desde": "2023-01-17",
+            "f_hasta": "2023-01-17",
+            "id": "0852a07e-6c22-4867-a981-dfceea2779gr"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "string",
+            "id": "2bc4ccb8-7377-42b3-a427-18d00e07d71d"
+          }
+        ],
+        "domicilios": [
+          {
+            "calle": "string",
+            "numeracion": "string",
+            "piso": "string",
+            "departamento": "string",
+            "descripcion": "string",
+            "codigo_postal": "string",
+            "id_admin_param_ciudad": "1",
+            "geo_code": "string",
+            "id_param_tipo_domicilio": 1,
+            "id": "167dafe6-1138-41c5-8ea2-0202a4cf10db"
+          }
+        ],
+        "nacionalidades": [
+          {
+            "id_nacionalidad": 1,
+            "id_persona": "0042eb5e-a64a-4891-af42-73063c799bed"
+          }
+        ],
+        "id": "0042eb5e-a64a-4891-af42-73063c799bed"
+      },
+      "matriculas": [
+        {
+          "id": "2",
+          "numero": "666",
+          "id_prestador_profesion": "39812623-9592-4edd-953e-43c4c04aa2f1",
+          "tipo": "string",
+          "id_provincia": "1",
+          "fecha_matriculacion": "2023-01-17",
+          "fecha_vencimiento": "2023-01-17",
+          "id_entidad_otorgante": 1
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652510300353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

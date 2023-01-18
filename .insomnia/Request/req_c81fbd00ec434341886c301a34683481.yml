@@ -1,9 +1,10 @@
 _id: req_c81fbd00ec434341886c301a34683481
 type: Request
-parentId: fld_911ddeec6def453585f55346ebd845f7
-modified: 1671224701129
+parentId: fld_36ef0545cd1242c2a74c41fd04ce2d35
+modified: 1674047218534
 created: 1669385314204
-url: "{{ _.base_url }}/{{ _.id_prestador }}/calendario/turneros"
+url: "{{ _.base_url
+  }}/prestadores/7dd6fbad-e521-46d6-87ed-a2b56bd91c63/calendario/turneros"
 name: Turnero create
 description: ""
 method: POST
@@ -37,7 +38,7 @@ headers:
     value: ""
     description: ""
 authentication: {}
-metaSortKey: -1669385314204
+metaSortKey: -1674047212594
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

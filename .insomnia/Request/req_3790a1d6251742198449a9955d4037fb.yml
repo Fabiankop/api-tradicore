@@ -1,11 +1,11 @@
 _id: req_3790a1d6251742198449a9955d4037fb
 type: Request
 parentId: fld_911ddeec6def453585f55346ebd845f7
-modified: 1669127610869
+modified: 1673978362231
 created: 1669127553045
 url: "{{ _.base_url
-  }}/prestadores/prestador/perfil/financiadoras?id_prestador={{ _.id_prestador
-  }}"
+  }}/prestadores/prestador/perfil/financiadoras/7dd6fbad-e521-46d6-87ed-a2b56bd\
+  91c63"
 name: Financiadoras
 description: ""
 method: GET

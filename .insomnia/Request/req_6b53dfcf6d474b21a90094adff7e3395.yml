@@ -1,0 +1,31 @@
+_id: req_6b53dfcf6d474b21a90094adff7e3395
+type: Request
+parentId: fld_0a196aa4a4484d9abec8ec74650e1c20
+modified: 1674047254417
+created: 1674045833849
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/turnos"
+name: Crear Turno
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "motivo_consulta": "motivo de prueba",
+      "hora": "09:00:00",
+      "id_persona": "2dcdb8aa-04ea-46fa-b9e7-39d42ab1f0d3",
+      "id_afiliacion": "484769b4-0a7c-4216-b5c5-f958604fab0f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674047253074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
