@@ -1,0 +1,96 @@
+_id: req_d2e92c50d6a54284892714d23133faa7
+type: Request
+parentId: fld_3ae1281549e94716aad8c9fb5e32d970
+modified: 1674497211173
+created: 1674497094870
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/{{
+  _.id_afiliacion }}/adherentes/{{ _.id_adherente }}"
+name: Update Adherente
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string",
+      "id_titular": "string",
+      "persona": {
+        "nombre": "string",
+        "apellido": "string",
+        "email": "user@example.com",
+        "estado_civil": "string",
+        "telefono": "string",
+        "sexo": "string",
+        "f_nacimiento": "2023-01-23",
+        "id": "string",
+        "fotos": [
+          {
+            "url": "string",
+            "id": "string"
+          }
+        ],
+        "domicilios": [
+          {
+            "calle": "string",
+            "numeracion": "string",
+            "piso": "string",
+            "departamento": "string",
+            "descripcion": "string",
+            "codigo_postal": "string",
+            "id_admin_param_ciudad": "string",
+            "geo_code": "string",
+            "id_param_tipo_domicilio": 0,
+            "id": "string"
+          }
+        ],
+        "documentos": [
+          {
+            "valor": "string",
+            "id_param_tipodoc": "string",
+            "id": "string"
+          }
+        ],
+        "nacionalidades": [
+          {
+            "id_nacionalidad": 0,
+            "id_persona": "string"
+          }
+        ]
+      },
+      "parentesco": {
+        "id": "string",
+        "tipo": "string"
+      },
+      "coberturas": [
+        {
+          "id": "string",
+          "id_financiadora": "string",
+          "numero_cobertura": "string",
+          "f_alta": "2023-01-23",
+          "activo": true
+        }
+      ],
+      "preexistencias": [
+        {
+          "id_diagnostico": "string",
+          "observaciones": "string",
+          "f_activo_desde": "2023-01-23",
+          "f_activo_baja": "2023-01-23",
+          "id_financiadora_programa": "string"
+        }
+      ],
+      "estudiante": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674497126780
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

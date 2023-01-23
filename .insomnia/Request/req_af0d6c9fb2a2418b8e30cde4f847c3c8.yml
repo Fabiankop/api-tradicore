@@ -1,10 +1,10 @@
 _id: req_af0d6c9fb2a2418b8e30cde4f847c3c8
 type: Request
-parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673892846264
+parentId: fld_3ae1281549e94716aad8c9fb5e32d970
+modified: 1674497129282
 created: 1673892071968
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/{{ _.id_afiliacion
-  }}/adherente/"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
+  }}/670fe9ca-f1de-44fa-a4e4-496bfaa2c050/adherente/"
 name: Create Adherente
 description: ""
 method: POST
@@ -13,18 +13,19 @@ body:
   text: |-
     {
       "persona": {
-        "nombre": "adherente nuevo",
-        "apellido": "adherente nuevo apellido",
-        "email": "createadherente4@example.com",
-        "telefono": "039485",
-        "estado_civil": "soltero",
-        "f_nacimiento": "2023-01-06",
+        "nombre": "string",
+        "apellido": "string",
+        "email": "userde_prueba@example.com",
+        "estado_civil": "string",
+        "telefono": "string",
+        "sexo": "string",
+        "f_nacimiento": "2023-01-20",
         "documentos": [
           {
-            "valor": "34859234",
+            "valor": "string",
             "id_param_tipodoc": "dni",
-            "f_desde": "2023-01-06",
-            "f_hasta": "2023-01-06"
+            "f_desde": "2023-01-20",
+            "f_hasta": "2023-01-20"
           }
         ],
         "fotos": [
@@ -34,56 +35,49 @@ body:
         ],
         "domicilios": [
           {
-            "direccion": "string",
+            "calle": "string",
+            "numeracion": "string",
+            "piso": "string",
+            "departamento": "string",
+            "descripcion": "string",
             "codigo_postal": "string",
-            "id_admin_param_ciudad": "2",
+            "id_admin_param_ciudad": "1",
             "geo_code": "string",
-            "id_param_tipo_domicilio": 2
+            "id_param_tipo_domicilio": 1
           }
-        ],
-        "sexo": "string"
+        ]
       },
-    	"estudiante": false,
-      "f_alta": "2023-01-06",
-        "parentesco": {
-        "id": "2",
+      "parentesco": {
+        "id": "1",
         "tipo": "string"
       },
-      "id_titular": "9f29eb96-45fd-49f4-abfb-0998b74e9ffc",
+      "id_titular": "string",
       "preexistencias": [
         {
-          "id_diagnostico": "234",
-          "observaciones": "muchos dolores",
-          "f_activo_desde": "2020-01-06",
-          "f_activo_baja": "2023-01-06",
-          "programas": {
-            "id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
-          }
+          "id_diagnostico": "1",
+          "observaciones": "string",
+          "f_activo_desde": "2023-01-20",
+          "f_activo_baja": "2023-01-20",
+          "id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
         }
       ],
       "coberturas": [
         {
           "id_motivobaja": "string",
-          "id_financiadora": "00662749-b8f3-4783-a9c1-31b26a99262c",
-          "numero_cobertura": "253280535",
-          "f_alta": "2023-01-06",
+          "id_financiadora": "string",
+          "numero_cobertura": "string",
+          "f_alta": "2023-01-20",
           "activo": true
-        },
-            {
-          "id_motivobaja": "string",
-          "id_financiadora": "996052c2-0673-44fa-9c57-27099ebd6626",
-          "numero_cobertura": "343280535",
-          "f_alta": "2011-01-06",
-          "activo": false
         }
-      ]
+      ],
+      "estudiante": true
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1673892071968
+metaSortKey: -1674497126880
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

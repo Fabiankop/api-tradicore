@@ -1,9 +1,10 @@
 _id: req_e9579be24fad4d849136abd689835990
 type: Request
-parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1673890670571
+parentId: fld_3ae1281549e94716aad8c9fb5e32d970
+modified: 1674497133929
 created: 1673890623280
-url: "{{ _.base_url }}/financiadoras/afiliaciones/{{ _.id_afiliacion }}/adherentes"
+url: "{{ _.base_url
+  }}/financiadoras/afiliaciones/10b9ae9d-3816-4954-bba5-6fc08380f8c3/adherentes"
 name: Get Adherente
 description: ""
 method: GET
@@ -11,7 +12,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1673890623280
+metaSortKey: -1674497126830
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
