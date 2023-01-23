@@ -1,7 +1,7 @@
 _id: req_6e09404492f846f5a9e2d7045baa3a1a
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1674012472385
+modified: 1674482478124
 created: 1662659122599
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/"
 name: Create afiliacion
@@ -15,17 +15,17 @@ body:
         "nombre": "juan",
         "apellido": "arango",
         "sexo": "masculino",
-        "email": "tjajo4o@hotmail.com",
+        "email": "carlos@hotmail.com",
         "estado_civil": "casada",
         "f_nacimiento": "1992-09-12",
         "telefono": "312456655",
         "documentos": [
     			{
-            "valor": "42543936310",
+            "valor": "4254",
             "id_param_tipodoc": "cuit-cuil"
           },
           {
-            "valor": "48143396301",
+            "valor": "4814",
             "id_param_tipodoc": "dni"
           }
         ],
@@ -48,6 +48,7 @@ body:
         ]
       },
     	"estudiante": true,
+    	"id_plan_activo": "0da251f5-7334-466e-b8b1-287cb0b54cc7",
     	"coberturas": [
         {
           "id_motivobaja": "1",
@@ -57,9 +58,6 @@ body:
           "activo": true
         }
       ],
-      "planes": {
-        "id_financiadora_plan": "1"
-      },
       "responsable_pago": {
         "id_tipo_parentesco": "1",
     		"pagos": {
@@ -67,10 +65,10 @@ body:
            "nombre": "juantest",
          	 "apellido": "peretestz",
             "telefono": "456456868968",
-            "email": "tr603341@gmail.com",
+            "email": "tr60@gmail.com",
     				"documentos": [
               {
-                "valor": "434633510",
+                "valor": "4340",
                 "id_param_tipodoc": "cuit-cuil"
               }
             ]
@@ -83,18 +81,18 @@ body:
     				"nombre": "josteste",
     				"apellido": "conte",
     				"telefono": "222222222",
-    				"email": "gtj4a3ss@gmail.com"
+    				"email": "gtj@gmail.com"
     			},
           "cbu": "4159847"
           
         }
       },
-    	"preexistencias": {
+    	"preexistencias": [{
         "id_diagnostico": "1",
         "observaciones": "diagnistico test",
         "f_activo_desde": "2023-01-16",
     		"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
-      },
+      }],
     	"laboral": {
         "id_condicion_laboral": "1",
         "f_desde": "2022-09-13",
