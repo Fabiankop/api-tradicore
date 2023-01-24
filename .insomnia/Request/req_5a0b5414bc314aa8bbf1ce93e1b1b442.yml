@@ -1,45 +1,45 @@
 _id: req_5a0b5414bc314aa8bbf1ce93e1b1b442
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1674482205977
+modified: 1674499702910
 created: 1663685342994
-url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/{{
-  _.id_afiliacion }}"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
+  }}/afiliaciones/e66e2632-c343-4cc0-a1ff-8b09c51fa90b"
 name: Update Afiliacion
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"id": "47f284e5-d335-4e42-bf5a-a9e1173c681c",
-    	"codigo": "0000000000000001",
-    	"id_titular": "a8de258f-742a-4295-a4c9-b414e713ac6a",
+    	"id": "e66e2632-c343-4cc0-a1ff-8b09c51fa90b",
+    	"codigo": "0000000000000189",
+    	"id_titular": "a5563f2e-e29c-471a-acaf-343b4cec9565",
     	"persona": {
     		"nombre": "juan",
     		"apellido": "arango",
-    		"email": "tjajo4o@hotmail.com",
+    		"email": "carlos@hotmail.com",
     		"estado_civil": "casada",
     		"telefono": "312456655",
     		"sexo": "masculino",
     		"f_nacimiento": "1992-09-12",
-    		"id": "a8de258f-742a-4295-a4c9-b414e713ac6a",
+    		"id": "a5563f2e-e29c-471a-acaf-343b4cec9565",
     		"documentos": [
     			{
-    				"valor": "42543936310",
+    				"valor": "4254",
     				"id_param_tipodoc": "cuit-cuil",
-    				"id": "c66a2f2a-dae9-4aef-bb16-5ded56aa1943"
+    				"id": "3da9a974-4e56-401f-af9a-63d1dda1a4c3"
     			},
     			{
-    				"valor": "48143396301",
+    				"valor": "4814",
     				"id_param_tipodoc": "dni",
-    				"id": "bf7261cf-f116-4459-bb13-f8b0ebf7903e"
+    				"id": "83345433-4220-41d3-b43a-2454544e54b4"
     			}
     		],
     		"fotos": [
     			{
-    				"url": "https://i.pinimg.com/564x/93/4c/0a/934c0a6a95b1f80ff49ca1cbefd1006a.jpg",
-    				"id": "bbde4b10-94b3-4089-97c4-99c2fb79b5a7"
+    				"url": "https://prueba.jpg",
+    				"id": "c26138f3-1b61-4760-bfeb-b25f0a4f8cde"
     			}
     		],
     		"domicilios": [
@@ -53,14 +53,14 @@ body:
     				"id_admin_param_ciudad": "1",
     				"geo_code": "987788",
     				"id_param_tipo_domicilio": null,
-    				"id": "78eb75f4-20d8-4081-a0d2-946a55404fca"
+    				"id": "10277f21-e760-4562-80f9-86e85ca77647"
     			}
     		],
     		"nacionalidades": []
     	},
     	"plan_activo": {
-    		"id": "d2c661c8-f6ee-4196-9bb7-292faa4402ea",
-    		"id_afiliacion": "47f284e5-d335-4e42-bf5a-a9e1173c681c",
+    		"id": "00307a09-150b-4e6b-9cb3-4f5eb844f876",
+    		"id_afiliacion": "e66e2632-c343-4cc0-a1ff-8b09c51fa90b",
     		"id_financiadora_plan": "0da251f5-7334-466e-b8b1-287cb0b54cc7"
     	},
     	"preexistencias": [
@@ -70,37 +70,29 @@ body:
     			"f_activo_desde": "2023-01-16",
     			"f_activo_baja": null,
     			"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451",
-    			"id_afiliado_programa": "dc8f658a-40e9-40ca-8abd-4e391dd60cc3",
-    			"id": "f408e4ef-e45f-4410-b986-9747cd00e500"
-    		},
-    		{
-    			"id_diagnostico": "1",
-    			"observaciones": "diagnistico test",
-    			"f_activo_desde": "2023-01-16",
-    			"f_activo_baja": null,
-    			"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451",
-    			"id_afiliado_programa": "dc8f658a-40e9-40ca-8abd-4e391dd60cc3"
+    			"id_afiliado_programa": "18a3871b-fb75-485f-aa91-eeec872e2faf",
+    			"id": "dda693a6-1fc7-4c75-af93-ccaa65cbb483"
     		}
     	],
     	"familiares": null,
     	"responsable_pago": {
     		"id_tipo_parentesco": "1",
     		"pagos": {
-    			"id": "15ce6f1b-2bd0-440e-bf23-9279745dfe2c",
+    			"id": "0dc5d133-06e5-4c0d-a989-ee98a0f05455",
     			"persona": {
     				"nombre": "juantest",
     				"apellido": "peretestz",
-    				"email": "tr603341@gmail.com",
+    				"email": "tr60@gmail.com",
     				"estado_civil": null,
     				"telefono": "456456868968",
     				"sexo": null,
     				"f_nacimiento": null,
-    				"id": "162658f2-6c8f-472f-b573-9be7e3dd70a0",
+    				"id": "12b65124-8b91-4134-bc8b-a8fbcb192a5b",
     				"documentos": [
     					{
-    						"valor": "434633510",
+    						"valor": "4340",
     						"id_param_tipodoc": "cuit-cuil",
-    						"id": "bb0d8c02-a462-4bc1-8d63-c8d3da446480"
+    						"id": "ca42b70b-3aff-4ac2-bb00-c35edda2d4b1"
     					}
     				],
     				"fotos": [],
@@ -114,16 +106,16 @@ body:
     			"pago_electronico": null
     		},
     		"reintegros": {
-    			"id": "4c42f505-1831-4ed5-8d6f-c3f1bfbeb06b",
+    			"id": "51d404d1-7389-4ccc-9e16-b30681f2c0d3",
     			"persona": {
     				"nombre": "josteste",
     				"apellido": "conte",
-    				"email": "gtj4a3ss@gmail.com",
+    				"email": "gtj@gmail.com",
     				"estado_civil": null,
     				"telefono": "222222222",
     				"sexo": null,
     				"f_nacimiento": null,
-    				"id": "71a24b21-fb40-4c06-aceb-165a1c110210",
+    				"id": "b22c5606-cbfa-4578-9fea-e0c4bca309bf",
     				"documentos": [],
     				"fotos": [],
     				"domicilios": [],
@@ -135,7 +127,7 @@ body:
     			"nombre_banco": null,
     			"pago_electronico": null
     		},
-    		"id": "40292937-3c40-407f-b244-2f81523a21c7"
+    		"id": "03ec477b-d411-46bf-8c7b-1640da90cb31"
     	},
     	"coberturas": [
     		{
@@ -144,7 +136,7 @@ body:
     			"numero_cobertura": "424565",
     			"f_alta": "2022-09-13",
     			"activo": true,
-    			"id": "b95af18e-cf28-4f67-b30a-a5da85e6f754"
+    			"id": "eb8f2190-741f-4209-b7db-95e50d7a4c2b"
     		}
     	],
     	"laboral": [
@@ -154,12 +146,12 @@ body:
     			"principal": null,
     			"f_desde": "2022-09-13",
     			"f_hasta": "2022-09-13",
-    			"id": "d939b7e4-7a4b-4399-9572-fd3b82ef580d",
+    			"id": "9293e847-dad8-4503-8513-58d27dfc7bf7",
     			"empresas": {
     				"id_param_tipodoc": "cuit-cuil",
     				"numero_documento": "12842",
     				"razon_social": "test",
-    				"id": "575b3284-7293-4321-9067-9df7562154b4",
+    				"id": "faaca5ce-a7c4-4884-a23e-8e539b549e0e",
     				"domicilios": [
     					{
     						"calle": "alberti",
@@ -170,15 +162,14 @@ body:
     						"codigo_postal": "uss344",
     						"id_admin_param_ciudad": "1",
     						"geo_code": "45567567",
-    						"id": "d849f9e8-913b-40a2-be5a-fae69cc260f1"
+    						"id": "77e504b1-5013-4e47-8478-996783b57ce7"
     					}
     				]
     			}
     		}
     	],
     	"estudiante": true,
-    	"condicion": "titular",
-    	"estado": "inact"
+    	"estado": "act"
     }
 parameters: []
 headers:

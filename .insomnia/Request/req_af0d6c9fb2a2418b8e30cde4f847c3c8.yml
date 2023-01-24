@@ -1,7 +1,7 @@
 _id: req_af0d6c9fb2a2418b8e30cde4f847c3c8
 type: Request
 parentId: fld_3ae1281549e94716aad8c9fb5e32d970
-modified: 1674497129282
+modified: 1674506775503
 created: 1673892071968
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
   }}/670fe9ca-f1de-44fa-a4e4-496bfaa2c050/adherente/"
@@ -15,7 +15,7 @@ body:
       "persona": {
         "nombre": "string",
         "apellido": "string",
-        "email": "userde_prueba@example.com",
+        "email": "userde_prueba2@example.com",
         "estado_civil": "string",
         "telefono": "string",
         "sexo": "string",
