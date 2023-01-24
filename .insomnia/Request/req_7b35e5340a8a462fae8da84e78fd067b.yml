@@ -1,0 +1,30 @@
+_id: req_7b35e5340a8a462fae8da84e78fd067b
+type: Request
+parentId: fld_cbdd0426dbad4211b831c1cb24b5bd00
+modified: 1674599549354
+created: 1674597305536
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/convenios"
+name: Create convenios
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "tipo_convenio": "generalista",
+      "f_desde": "2022-09-13",
+      "f_hasta": "2026-09-13"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674546147887.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
