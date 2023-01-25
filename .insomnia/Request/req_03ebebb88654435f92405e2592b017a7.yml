@@ -1,0 +1,129 @@
+_id: req_03ebebb88654435f92405e2592b017a7
+type: Request
+parentId: fld_3ae0cf03c094459598e5e20af2fc0838
+modified: 1674665991839
+created: 1674665979145
+url: ""
+name: Create perfil
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "persona": {
+        "nombre": "string",
+        "apellido": "string",
+        "email": "user@example.com",
+        "estado_civil": "string",
+        "telefono": "string",
+        "sexo": "string",
+        "f_nacimiento": "2023-01-25",
+        "documentos": [
+          {
+            "valor": "string",
+            "id_param_tipodoc": "string",
+            "f_desde": "2023-01-25",
+            "f_hasta": "2023-01-25"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "string"
+          }
+        ],
+        "domicilios": [
+          {
+            "calle": "string",
+            "numeracion": "string",
+            "piso": "string",
+            "departamento": "string",
+            "descripcion": "string",
+            "codigo_postal": "string",
+            "id_admin_param_ciudad": "string",
+            "geo_code": "string",
+            "id_param_tipo_domicilio": 0
+          }
+        ],
+        "nacionalidades": [
+          {
+            "id_nacionalidad": 0
+          }
+        ]
+      },
+      "seguros": {
+        "id_empresa_aseguradora": "string",
+        "f_hasta": "2023-01-25"
+      },
+      "facturacion": [
+        {
+          "id_param_condicion_impositiva": "string",
+          "id_provincia": "string",
+          "id_param_tipodoc": "string",
+          "numero_cuit": "string"
+        }
+      ],
+      "datos_bancarios": {
+        "cbu": "string"
+      },
+      "matriculas": [
+        {
+          "numero": "string",
+          "tipo": "string",
+          "id_provincia": "string",
+          "fecha_matriculacion": "2023-01-25",
+          "fecha_vencimiento": "2023-01-25",
+          "id_entidad_otorgante": 0,
+          "prestador_profesion": {
+            "id_profesion": "string",
+            "prestador_especialidad": [
+              {
+                "id_especialidad": "string"
+              }
+            ]
+          }
+        }
+      ],
+      "establecimientos": [
+        {
+          "numero_matricula": "string",
+          "tipo_matricula": "string",
+          "id_provincia_matricula": "string",
+          "razon_social": "string",
+          "cuit": "string",
+          "telefono": "string",
+          "email": "string",
+          "responsable_tecnico": {
+            "nombre": "string",
+            "apellido": "string",
+            "numero_matricula": "string",
+            "profesion": "string",
+            "f_desde": "2023-01-25",
+            "url_habilitacion": "string"
+          },
+          "domicilio": {
+            "direccion": "string",
+            "codigo_postal": "string",
+            "geo_code": 0,
+            "id_admin_param_ciudad": "string",
+            "id_tipo_domicilio": 0
+          },
+          "id_especialidades": [
+            "string"
+          ]
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674665979145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
