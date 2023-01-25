@@ -1,10 +1,10 @@
 _id: req_d2e92c50d6a54284892714d23133faa7
 type: Request
 parentId: fld_3ae1281549e94716aad8c9fb5e32d970
-modified: 1674497211173
+modified: 1674506299045
 created: 1674497094870
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/afiliaciones/{{
-  _.id_afiliacion }}/adherentes/{{ _.id_adherente }}"
+  _.id_afiliacion }}/adherentes/0af0730c-3236-4bd0-a8eb-12623690c23a"
 name: Update Adherente
 description: ""
 method: PUT
@@ -12,7 +12,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "id": "string",
+      "id": "0af0730c-3236-4bd0-a8eb-12623690c23a",
       "id_titular": "string",
       "persona": {
         "nombre": "string",
@@ -22,40 +22,35 @@ body:
         "telefono": "string",
         "sexo": "string",
         "f_nacimiento": "2023-01-23",
-        "id": "string",
+        "id": "c54d0566-12e2-41d3-8fa5-d2ae3c1688a5",
         "fotos": [
           {
             "url": "string",
-            "id": "string"
+            "id": "aee01143-b149-4949-b58e-f0b10de9ea08"
           }
         ],
         "domicilios": [
           {
-            "calle": "string",
-            "numeracion": "string",
-            "piso": "string",
-            "departamento": "string",
-            "descripcion": "string",
-            "codigo_postal": "string",
+            "calle": "nueva",
+            "numeracion": "124",
+            "piso": "4",
+            "departamento": "A",
+            "descripcion": "Prueba",
+            "codigo_postal": "1546",
             "id_admin_param_ciudad": "string",
             "geo_code": "string",
             "id_param_tipo_domicilio": 0,
-            "id": "string"
+            "id": "9c7861ec-1dfb-4cc1-9b28-bccba660c9cc"
           }
         ],
         "documentos": [
           {
             "valor": "string",
             "id_param_tipodoc": "string",
-            "id": "string"
+            "id": "fe4b8314-5d2f-4dcd-8a03-3e787f8b4d21"
           }
         ],
-        "nacionalidades": [
-          {
-            "id_nacionalidad": 0,
-            "id_persona": "string"
-          }
-        ]
+        "nacionalidades": null
       },
       "parentesco": {
         "id": "string",
