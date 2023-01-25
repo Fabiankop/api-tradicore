@@ -126,7 +126,7 @@ body:
       "persona": {
         "nombre": "string",
         "apellido": "string",
-        "email": "userde_prueba@example.com",
+        "email": "userde_prueba2@example.com",
         "estado_civil": "string",
         "telefono": "string",
         "sexo": "string",
