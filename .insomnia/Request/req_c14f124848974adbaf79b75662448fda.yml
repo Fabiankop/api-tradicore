@@ -1,17 +1,17 @@
 _id: req_c14f124848974adbaf79b75662448fda
 type: Request
-parentId: fld_911ddeec6def453585f55346ebd845f7
-modified: 1669141220325
+parentId: fld_acbbff5bb4c24461ae2dc5a90f8ca5eb
+modified: 1674665529508
 created: 1669128035701
 url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/pacientes?skip=0&limit=20"
-name: Pacientes
+name: Pacientes with query
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669128035701
+metaSortKey: -1671207846581
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

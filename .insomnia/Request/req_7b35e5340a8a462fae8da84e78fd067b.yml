@@ -1,7 +1,7 @@
 _id: req_7b35e5340a8a462fae8da84e78fd067b
 type: Request
 parentId: fld_cbdd0426dbad4211b831c1cb24b5bd00
-modified: 1674599549354
+modified: 1674601669299
 created: 1674597305536
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/convenios"
 name: Create convenios
@@ -12,8 +12,8 @@ body:
   text: |
     {
       "tipo_convenio": "generalista",
-      "f_desde": "2022-09-13",
-      "f_hasta": "2026-09-13"
+      "f_desde": "2023-01-24T22:20:04.622Z",
+      "f_hasta": "2026-01-24T22:20:04.622Z"
     }
 parameters: []
 headers:
