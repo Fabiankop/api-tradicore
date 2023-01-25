@@ -1,17 +1,17 @@
-_id: req_c14f124848974adbaf79b75662448fda
+_id: req_2992df232d4c4470b51ab68d5e995992
 type: Request
-parentId: fld_acbbff5bb4c24461ae2dc5a90f8ca5eb
-modified: 1674665529508
-created: 1669128035701
-url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/pacientes?skip=0&limit=20"
-name: Pacientes with query
+parentId: fld_cbdd0426dbad4211b831c1cb24b5bd00
+modified: 1674595319973
+created: 1674595168895
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/convenios"
+name: Get convenios
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1671207846581
+metaSortKey: -1674595168895
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

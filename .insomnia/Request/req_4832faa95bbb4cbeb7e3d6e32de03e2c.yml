@@ -1,0 +1,66 @@
+_id: req_4832faa95bbb4cbeb7e3d6e32de03e2c
+type: Request
+parentId: fld_a4a09298c72747288ab55db39222f4fb
+modified: 1674610857004
+created: 1674610465566
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/calendario/turneros"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id_especialidad": "1",
+      "id_establecimiento_sucursal": "1",
+      "hora_inicio": "07:00",
+      "hora_fin": "20:00",
+      "hora_pausa_inicio": "12:00",
+      "hora_pausa_fin": "13:00",
+      "duracion_turno": 5,
+      "cantidad_turnos": 0,
+      "cantidad_sobreturnos": 0,
+      "dia_semana_config": [
+        {
+          "dia_semana": "Lunes",
+          "activo": true
+        },
+    		{
+          "dia_semana": "Martes",
+          "activo": true
+        },
+    		{
+          "dia_semana": "Miércoles",
+          "activo": true
+        },
+    		{
+          "dia_semana": "Jueves",
+          "activo": true
+        },
+    		{
+          "dia_semana": "Viernes",
+          "activo": true
+        },
+    		{
+          "dia_semana": "Sábado",
+          "activo": false
+        },
+    		{
+          "dia_semana": "Domingo",
+          "activo": false
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674610465566
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

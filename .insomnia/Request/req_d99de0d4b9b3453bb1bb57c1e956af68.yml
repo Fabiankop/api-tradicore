@@ -1,7 +1,7 @@
 _id: req_d99de0d4b9b3453bb1bb57c1e956af68
 type: Request
-parentId: fld_911ddeec6def453585f55346ebd845f7
-modified: 1652510403347
+parentId: fld_b3284aff19464d77b0d1a3fad7ce2bab
+modified: 1674665605421
 created: 1652510300403
 url: "{{ _.URL }}/prestadores_seguros/"
 name: Obtener prestador Seguro
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1652510300403
+metaSortKey: -1674634558245.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

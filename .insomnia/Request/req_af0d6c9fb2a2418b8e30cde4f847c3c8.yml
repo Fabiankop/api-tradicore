@@ -1,7 +1,7 @@
 _id: req_af0d6c9fb2a2418b8e30cde4f847c3c8
 type: Request
 parentId: fld_3ae1281549e94716aad8c9fb5e32d970
-modified: 1674506775503
+modified: 1674507271913
 created: 1673892071968
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
   }}/670fe9ca-f1de-44fa-a4e4-496bfaa2c050/adherente/"
@@ -10,7 +10,118 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >+
+    {
+      "persona": {
+        "nombre": "juan",
+        "apellido": "arango",
+        "sexo": "masculino",
+        "email": "carlos@hotmail.com",
+        "estado_civil": "casada",
+        "f_nacimiento": "1992-09-12",
+        "telefono": "312456655",
+        "documentos": [
+    			{
+            "valor": "4254",
+            "id_param_tipodoc": "cuit-cuil"
+          },
+          {
+            "valor": "4814",
+            "id_param_tipodoc": "dni"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "https://i.pinimg.com/564x/93/4c/0a/934c0a6a95b1f80ff49ca1cbefd1006a.jpg"
+          }
+        ],
+        "domicilios": [
+          {
+            "codigo_postal": "6598",
+            "id_admin_param_ciudad": "1",
+            "geo_code": "987788",
+    				"calle": "alberti",
+    				"numeracion": "387",
+    				"piso": "2do",
+    				"departamento": "B",
+    				"descripcion": "timbre pequeno"
+          }
+        ]
+      },
+    	"estudiante": true,
+    	"id_plan_activo": "0da251f5-7334-466e-b8b1-287cb0b54cc7",
+    	"coberturas": [
+        {
+          "id_motivobaja": "1",
+          "id_financiadora": "45ed3d32-cf6a-4467-be66-de4b5d05a421",
+          "numero_cobertura": "424565",
+          "f_alta": "2022-09-13",
+          "activo": true
+        }
+      ],
+      "responsable_pago": {
+        "id_tipo_parentesco": "1",
+    		"pagos": {
+          "persona": {
+           "nombre": "juantest",
+         	 "apellido": "peretestz",
+            "telefono": "456456868968",
+            "email": "tr60@gmail.com",
+    				"documentos": [
+              {
+                "valor": "4340",
+                "id_param_tipodoc": "cuit-cuil"
+              }
+            ]
+          },
+          "condicion_iva": "iva incluido",
+          "id_medio_pago": "1"
+        },
+        "reintegros": {
+    			"persona": {
+    				"nombre": "josteste",
+    				"apellido": "conte",
+    				"telefono": "222222222",
+    				"email": "gtj@gmail.com"
+    			},
+          "cbu": "4159847"
+          
+        }
+      },
+    	"preexistencias": [{
+        "id_diagnostico": "1",
+        "observaciones": "diagnistico test",
+        "f_activo_desde": "2023-01-16",
+    		"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
+      }],
+    	"laboral": {
+        "id_condicion_laboral": "1",
+        "f_desde": "2022-09-13",
+        "f_hasta": "2022-09-13",
+        "empresa": {
+          "id_param_tipodoc": "cuit-cuil",
+          "numero_documento": "12842",
+          "razon_social": "test",
+    			"domicilios": [{
+    				"codigo_postal": "uss344",
+    				"id_admin_param_ciudad": "1",
+    				"geo_code": "45567567",
+    				"calle": "alberti",
+    				"numeracion": "387",
+    				"piso": "2do",
+    				"departamento": "B",
+    				"descripcion": "timbre pequeno"
+    			}]
+        }
+      },
+    	"afiliacion_estado": {
+    			"f_desde": "2030-01-16",
+    			"id_params_estado": "act"
+    	}
+    }
+
+
+
     {
       "persona": {
         "nombre": "string",
@@ -47,10 +158,7 @@ body:
           }
         ]
       },
-      "parentesco": {
-        "id": "1",
-        "tipo": "string"
-      },
+      "id_parentesco": "1",
       "id_titular": "string",
       "preexistencias": [
         {
@@ -72,6 +180,8 @@ body:
       ],
       "estudiante": true
     }
+
+
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_5a0b5414bc314aa8bbf1ce93e1b1b442
 type: Request
 parentId: fld_991a6ae6175a4b0c8fbe8574d35c1340
-modified: 1674499702910
+modified: 1674502726973
 created: 1663685342994
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
   }}/afiliaciones/e66e2632-c343-4cc0-a1ff-8b09c51fa90b"
@@ -12,9 +12,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id": "e66e2632-c343-4cc0-a1ff-8b09c51fa90b",
-    	"codigo": "0000000000000189",
-    	"id_titular": "a5563f2e-e29c-471a-acaf-343b4cec9565",
+    	"id": "bcff5b0c-cb58-4437-9309-9a7e10deb0fd",
+    	"codigo": "0000000000000001",
+    	"id_titular": "cc43f7b5-faa8-4efd-b627-3246a274e44e",
     	"persona": {
     		"nombre": "juan",
     		"apellido": "arango",
@@ -23,23 +23,24 @@ body:
     		"telefono": "312456655",
     		"sexo": "masculino",
     		"f_nacimiento": "1992-09-12",
-    		"id": "a5563f2e-e29c-471a-acaf-343b4cec9565",
+    		"id": "cc43f7b5-faa8-4efd-b627-3246a274e44e",
     		"documentos": [
     			{
     				"valor": "4254",
     				"id_param_tipodoc": "cuit-cuil",
-    				"id": "3da9a974-4e56-401f-af9a-63d1dda1a4c3"
+
+    				"id": "d370a78f-c258-4b26-941b-cba2d9faf806"
     			},
     			{
     				"valor": "4814",
     				"id_param_tipodoc": "dni",
-    				"id": "83345433-4220-41d3-b43a-2454544e54b4"
+    				"id": "f3ee8aab-12e0-42d0-84bc-653c1a6448a2"
     			}
     		],
     		"fotos": [
     			{
     				"url": "https://prueba.jpg",
-    				"id": "c26138f3-1b61-4760-bfeb-b25f0a4f8cde"
+    				"id": "94c4e4de-a89f-4aaa-b19d-e174699efb1e"
     			}
     		],
     		"domicilios": [
@@ -53,14 +54,14 @@ body:
     				"id_admin_param_ciudad": "1",
     				"geo_code": "987788",
     				"id_param_tipo_domicilio": null,
-    				"id": "10277f21-e760-4562-80f9-86e85ca77647"
+    				"id": "298e60ef-da08-4f6b-87a0-57308c3f518a"
     			}
     		],
     		"nacionalidades": []
     	},
     	"plan_activo": {
-    		"id": "00307a09-150b-4e6b-9cb3-4f5eb844f876",
-    		"id_afiliacion": "e66e2632-c343-4cc0-a1ff-8b09c51fa90b",
+    		"id": "6dbc9815-c162-4224-98c6-b4f1b53e58e1",
+    		"id_afiliacion": "bcff5b0c-cb58-4437-9309-9a7e10deb0fd",
     		"id_financiadora_plan": "0da251f5-7334-466e-b8b1-287cb0b54cc7"
     	},
     	"preexistencias": [
@@ -70,15 +71,15 @@ body:
     			"f_activo_desde": "2023-01-16",
     			"f_activo_baja": null,
     			"id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451",
-    			"id_afiliado_programa": "18a3871b-fb75-485f-aa91-eeec872e2faf",
-    			"id": "dda693a6-1fc7-4c75-af93-ccaa65cbb483"
+    			"id_afiliado_programa": "2e262653-c63c-419a-8816-8fec51311ea9",
+    			"id": "f78e77f2-a6a1-4ca1-b2ec-d986d4a0bd83"
     		}
     	],
     	"familiares": null,
     	"responsable_pago": {
     		"id_tipo_parentesco": "1",
     		"pagos": {
-    			"id": "0dc5d133-06e5-4c0d-a989-ee98a0f05455",
+    			"id": "dc548a4e-b78c-4218-b8da-aafcb6555ffc",
     			"persona": {
     				"nombre": "juantest",
     				"apellido": "peretestz",
@@ -87,12 +88,12 @@ body:
     				"telefono": "456456868968",
     				"sexo": null,
     				"f_nacimiento": null,
-    				"id": "12b65124-8b91-4134-bc8b-a8fbcb192a5b",
+    				"id": "5c6cbf14-1257-4fc5-be82-6bee33a5d9ae",
     				"documentos": [
     					{
     						"valor": "4340",
     						"id_param_tipodoc": "cuit-cuil",
-    						"id": "ca42b70b-3aff-4ac2-bb00-c35edda2d4b1"
+    						"id": "751fde1c-b96c-43f0-a6d6-c5ceaa428f07"
     					}
     				],
     				"fotos": [],
@@ -106,7 +107,7 @@ body:
     			"pago_electronico": null
     		},
     		"reintegros": {
-    			"id": "51d404d1-7389-4ccc-9e16-b30681f2c0d3",
+    			"id": "c38d1031-c76e-4f74-a9f9-9448a451eb0d",
     			"persona": {
     				"nombre": "josteste",
     				"apellido": "conte",
@@ -115,7 +116,7 @@ body:
     				"telefono": "222222222",
     				"sexo": null,
     				"f_nacimiento": null,
-    				"id": "b22c5606-cbfa-4578-9fea-e0c4bca309bf",
+    				"id": "0079dc80-0e6d-4e5b-8e10-756b0828bec4",
     				"documentos": [],
     				"fotos": [],
     				"domicilios": [],
@@ -127,7 +128,7 @@ body:
     			"nombre_banco": null,
     			"pago_electronico": null
     		},
-    		"id": "03ec477b-d411-46bf-8c7b-1640da90cb31"
+    		"id": "4a0c261c-e588-494b-962b-bfb1643efdf5"
     	},
     	"coberturas": [
     		{
@@ -136,7 +137,7 @@ body:
     			"numero_cobertura": "424565",
     			"f_alta": "2022-09-13",
     			"activo": true,
-    			"id": "eb8f2190-741f-4209-b7db-95e50d7a4c2b"
+    			"id": "e638abc9-27bf-4098-9330-f635bf27510a"
     		}
     	],
     	"laboral": [
@@ -146,12 +147,12 @@ body:
     			"principal": null,
     			"f_desde": "2022-09-13",
     			"f_hasta": "2022-09-13",
-    			"id": "9293e847-dad8-4503-8513-58d27dfc7bf7",
+    			"id": "947a077a-bdc6-42b0-80d1-c63c0fce5ae9",
     			"empresas": {
     				"id_param_tipodoc": "cuit-cuil",
     				"numero_documento": "12842",
     				"razon_social": "test",
-    				"id": "faaca5ce-a7c4-4884-a23e-8e539b549e0e",
+    				"id": "7d6f75af-3a1e-4ba9-949b-b36be4cff869",
     				"domicilios": [
     					{
     						"calle": "alberti",
@@ -162,7 +163,7 @@ body:
     						"codigo_postal": "uss344",
     						"id_admin_param_ciudad": "1",
     						"geo_code": "45567567",
-    						"id": "77e504b1-5013-4e47-8478-996783b57ce7"
+    						"id": "e7c7407b-2b67-400a-b8df-050ed7e4c8a5"
     					}
     				]
     			}
