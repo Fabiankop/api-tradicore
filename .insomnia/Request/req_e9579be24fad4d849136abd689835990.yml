@@ -1,10 +1,10 @@
 _id: req_e9579be24fad4d849136abd689835990
 type: Request
 parentId: fld_3ae1281549e94716aad8c9fb5e32d970
-modified: 1674568545227
+modified: 1675430709757
 created: 1673890623280
-url: "{{ _.base_url
-  }}/financiadoras/afiliaciones/10b9ae9d-3816-4954-bba5-6fc08380f8c3/adherentes"
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
+  }}/afiliaciones/4b7f3c7b-f5b6-4d29-bafc-5c85e2ed2088/adherentes"
 name: Get Adherentes
 description: ""
 method: GET
