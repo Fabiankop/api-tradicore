@@ -1,0 +1,30 @@
+_id: env_7e5f92483e4c4eacb07c20173a76a7c3
+type: Environment
+parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
+modified: 1675198325692
+created: 1675198256409
+name: Local BD Produ
+data:
+  base_url: http://127.0.0.1:8008/v1
+  id_financiador: 69633cef-cd44-4ce2-ae8c-3000b61c6849
+  id_prestador: 0bdb5ecc-b486-46bd-957b-3dc7613b7c50
+  id_afiliacion: b1b13058-5c5d-4a5c-9594-074ad8367209
+  id_plan: c479d310-4bac-4465-a55d-ad2a15be283a
+  id_pais: 1
+  id_estado: 1
+  id_programa: 5b8fd2b5-5225-423e-b969-47a273974451
+  id_adherente: 8296a271-3d0b-4a0b-ae0f-dc3295caa955
+dataPropertyOrder:
+  "&":
+    - base_url
+    - id_financiador
+    - id_prestador
+    - id_afiliacion
+    - id_plan
+    - id_pais
+    - id_estado
+    - id_programa
+    - id_adherente
+color: "#1962d7"
+isPrivate: false
+metaSortKey: 1675198256409

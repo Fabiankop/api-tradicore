@@ -1,0 +1,149 @@
+_id: req_03ebebb88654435f92405e2592b017a7
+type: Request
+parentId: fld_3ae0cf03c094459598e5e20af2fc0838
+modified: 1675112863250
+created: 1674665979145
+url: "{{ _.base_url }}/prestadores/perfil/"
+name: Create perfil
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "persona": {
+        "nombre": "Carlos",
+        "apellido": "Rueda",
+        "email": "carlosrueda@prueba.com",
+        "estado_civil": "soltero",
+        "telefono": "3162884345",
+        "sexo": "masculino",
+        "f_nacimiento": "2003-01-25",
+        "documentos": [
+          {
+            "valor": "1011032456",
+            "id_param_tipodoc": "dni"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "https://img.freepik.com/foto-gratis/doctor-sonriente-estetoscopio-aislado-gris_651396-974.jpg"
+          }
+        ],
+        "domicilios": [
+          {
+            "calle": "Alberdi",
+            "numeracion": "3267",
+            "piso": "3",
+            "departamento": "D",
+            "descripcion": "Timbrar 2 veces",
+            "codigo_postal": "11012",
+            "id_admin_param_ciudad": "1",
+            "geo_code": "45570",
+            "id_param_tipo_domicilio": 1
+          }
+        ],
+        "nacionalidades": [
+          {
+            "id_nacionalidad": 1
+          }
+        ]
+      },
+      "seguros": {
+        "id_empresa_aseguradora": "1",
+        "f_hasta": "2024-12-26"
+      },
+      "facturacion": [
+        {
+          "id_param_condicion_impositiva": "1",
+          "id_provincia": "1",
+          "id_param_tipodoc": "dni",
+          "numero_cuit": "457547"
+        }
+      ],
+      "datos_bancarios": {
+        "cbu": "2342"
+      },
+      "matriculas": [
+        {
+          "numero": "98765",
+          "tipo": "regional",
+          "id_provincia": "1",
+          "fecha_matriculacion": "2021-01-25",
+          "fecha_vencimiento": "2023-01-25",
+          "id_entidad_otorgante": 1,
+          "prestador_profesion": {
+            "id_profesion": "1",
+            "prestador_especialidad": [
+              {
+                "id_especialidad": "1"
+              }, 
+    					{
+                "id_especialidad": "2"
+              }
+            ]
+          }
+        },
+    		{
+          "numero": "98745",
+          "tipo": "regional",
+          "id_provincia": "1",
+          "fecha_matriculacion": "2021-01-25",
+          "fecha_vencimiento": "2023-01-25",
+          "id_entidad_otorgante": 1,
+          "prestador_profesion": {
+            "id_profesion": "1",
+            "prestador_especialidad": [
+              {
+                "id_especialidad": "1"
+              }, 
+    					{
+                "id_especialidad": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "establecimientos": [
+        {
+          "numero_matricula": "98745",
+          "razon_social": "clinica corpas",
+          "cuit": "837463",
+          "telefono": "3123233434",
+          "email": "clinicacorpas@prueba.com",
+          "responsable_tecnico": {
+            "nombre": "Felipe",
+            "apellido": "Suarez",
+            "numero_matricula": "98980",
+            "profesion": "medico general",
+            "f_desde": "2022-01-29",
+            "url_habilitacion": "https://url.com"
+          },
+          "domicilio": {
+    				"codigo_postal": "usd344",
+    				"id_admin_param_ciudad": "1",
+    				"id_tipo_domicilio": "1",
+    				"geo_code": "45567",
+    				"calle": "alberti",
+    				"numeracion": "467",
+    				"piso": "2do",
+    				"departamento": "B",
+    				"descripcion": "no hay timbre, golpear"
+    			},
+          "id_especialidad": "1"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674665979145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

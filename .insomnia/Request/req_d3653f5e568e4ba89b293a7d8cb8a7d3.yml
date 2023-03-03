@@ -1,0 +1,21 @@
+_id: req_d3653f5e568e4ba89b293a7d8cb8a7d3
+type: Request
+parentId: fld_df2bcccadf764533a3fa2555ace14989
+modified: 1673364935227
+created: 1673364773692
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/planes/{{ _.id_plan }}"
+name: get plan by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673364773692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

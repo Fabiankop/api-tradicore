@@ -1,0 +1,22 @@
+_id: req_12192155e77e4cb9b90d33f89e3124c5
+type: Request
+parentId: fld_acbbff5bb4c24461ae2dc5a90f8ca5eb
+modified: 1675210785131
+created: 1675194754660
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador
+  }}/pacientes/buscar?numero=34831566134"
+name: Get pacientes by Code or Document
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671129087200.5
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

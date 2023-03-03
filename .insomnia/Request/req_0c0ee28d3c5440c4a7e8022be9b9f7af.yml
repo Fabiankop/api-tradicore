@@ -1,0 +1,22 @@
+_id: req_0c0ee28d3c5440c4a7e8022be9b9f7af
+type: Request
+parentId: fld_cbdd0426dbad4211b831c1cb24b5bd00
+modified: 1677521239301
+created: 1677521110882
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
+  }}/convenios/2/a6b4c13f-9baf-4340-a2d0-ebbeed012f22"
+name: Get practicas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674581850837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

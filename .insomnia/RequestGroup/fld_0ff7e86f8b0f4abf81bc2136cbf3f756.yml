@@ -1,0 +1,13 @@
+_id: fld_0ff7e86f8b0f4abf81bc2136cbf3f756
+type: RequestGroup
+parentId: wrk_2da635d4aaa84da9b32fbdd852ed96d1
+modified: 1652762704546
+created: 1652509812624
+name: Personas
+description: ""
+environment:
+  id_persona: 3a8dc093-10f9-42c8-ac36-9ecb0e28e494
+environmentPropertyOrder:
+  "&":
+    - id_persona
+metaSortKey: -1652509812624

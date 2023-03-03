@@ -1,0 +1,21 @@
+_id: req_5e0af60e21f548b7ae596d1b30a5f65a
+type: Request
+parentId: fld_0f3b0a2d3f6d438caf3dd5aa497495d4
+modified: 1669305590108
+created: 1669305567679
+url: "{{ _.base_url }}/tipo-domicilio"
+name: Tipos de domicilios
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669305567679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

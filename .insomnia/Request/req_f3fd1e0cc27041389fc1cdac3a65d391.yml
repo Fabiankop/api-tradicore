@@ -1,0 +1,21 @@
+_id: req_f3fd1e0cc27041389fc1cdac3a65d391
+type: Request
+parentId: fld_3ae0cf03c094459598e5e20af2fc0838
+modified: 1675095028487
+created: 1675092554814
+url: "{{ _.base_url }}/prestadores/{{ _.nd_prestador }}"
+name: Get prestador by documento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674723669181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

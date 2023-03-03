@@ -1,0 +1,21 @@
+_id: req_ec46233118694d058aa12b353a3de211
+type: Request
+parentId: fld_95fe0f0c2aa142f288c82044a696a763
+modified: 1677612511088
+created: 1677612468169
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores"
+name: Get nomencladores
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677612468169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
