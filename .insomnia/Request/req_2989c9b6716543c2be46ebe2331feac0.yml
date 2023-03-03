@@ -1,0 +1,123 @@
+_id: req_2989c9b6716543c2be46ebe2331feac0
+type: Request
+parentId: fld_565f5854ccb74e4b8b5ff9892d5d1756
+modified: 1674594167633
+created: 1663644771014
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/prestadores"
+name: Create Prestador
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "persona": {
+        "nombre": "chepe",
+        "apellido": "ruiz",
+        "sexo": "string",
+        "email": "chepe@gmail.com",
+        "estado_civil": "soltero",
+        "f_nacimiento": "1022-09-27",
+        "telefono": "3145968989",
+        "documentos": [
+          {
+            "valor": "1022456989",
+            "id_param_tipodoc": "dni",
+            "f_desde": "2022-09-27",
+            "f_hasta": "2022-09-27"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "https://i.pinimg.com/564x/74/69/6e/74696e2cc33176e3ffc5787483083082.jpg"
+          }
+        ],
+        "domicilios": [
+          {
+            "direccion": "cll 92",
+            "codigo_postal": "123456",
+            "id_admin_param_ciudad": "1",
+            "geo_code": "44444"
+          }
+        ]
+      },
+      "id_convenio": "1",
+      "seguros": {
+        "id_param_tiposeguro": "mp",
+        "f_desde": "2022-09-27",
+        "f_hasta": "2022-09-27"
+      },
+      "facturacion": {
+        "id_param_condicion_impositiva_afip": "10da9167-2a8d-4d3c-a98b-2e5821a91f29",
+        "id_param_condicion_impositiva_iibb": "3c80e134-bf3e-4e5a-a081-72f109cb4766",
+        "id_param_tipodoc": "1",
+        "numero_cuit": "54565"
+      },
+      "datos_bancarios": {
+        "nombre_banco": "bancoargenitna",
+        "cbu": "4556125626"
+      },
+      "id_tipo_prestador": "string",
+      "profesion": {
+        "valor": "psicoginecologo",
+        "id_profesion": "1",
+        "id_prestador": "1"
+      },
+      "especialidades_colegios": [
+        {
+          "id_establecimiento": "string",
+          "especialidad": {
+            "id_persona_documento": "1",
+    				"id_especialidad": "1",
+    				"f_especialidad_desde": "2022-09-27",
+    				"f_especialidad_hasta": "2022-09-27"
+          }
+        }
+      ],
+      "establecimientos_especialidades": [
+        {
+          "id_prestador_especialidad": "string",
+          "prestador_establecimiento": {
+            "f_desde": "2022-10-02",
+            "f_hasta": "2022-10-02",
+            "establecimiento": {
+              "razon_social": "establecimiento test",
+    					"nombre": "nombnre",
+    					"cuit": "35456416",
+    					"telefono": "123456",
+    					"email": "chepeestABASD@gmail.com",
+    					"id_establecimiento_sucursal": "1",
+    					"id_tipo_establecimiento": "1",
+    					"responsable_tecnico": {
+    						"nombre": "juan",
+    						"apellido": "perez",
+    						"numero_matricula": "21232",
+    						"profesion": "soldardor",
+    						"f_desde": "2022-09-27",
+    						"url_habitacion": "https://i.pinimg.com/564x/d9/73/90/d973900b72d1ee639b67ced500d585f8.jpg"
+    					}
+            }
+          }
+        }
+      ],
+      "estado": {
+        "f_desde": "2022-10-02",
+        "f_hasta": "2022-10-02",
+        "observacion": "string",
+        "id_params_estado": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_578753aa946a448e8a8cf8330a9ac6fa
+authentication: {}
+metaSortKey: -1663644771014
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

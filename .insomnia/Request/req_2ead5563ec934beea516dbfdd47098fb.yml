@@ -1,0 +1,21 @@
+_id: req_2ead5563ec934beea516dbfdd47098fb
+type: Request
+parentId: fld_3ae0cf03c094459598e5e20af2fc0838
+modified: 1674742934747
+created: 1674742899193
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}"
+name: Prestador by Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674742899193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

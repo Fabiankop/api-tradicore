@@ -1,0 +1,29 @@
+_id: req_2d8dd097c2ee49cdab8d0aef613621c9
+type: Request
+parentId: fld_95fe0f0c2aa142f288c82044a696a763
+modified: 1677776057400
+created: 1677685225953
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores"
+name: Post nomencladores
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	'nombre': 'dfffd',
+    	'estado': true,
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676177683681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,85 @@
+_id: req_af0d6c9fb2a2418b8e30cde4f847c3c8
+type: Request
+parentId: fld_3ae1281549e94716aad8c9fb5e32d970
+modified: 1675368064227
+created: 1673892071968
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador
+  }}/670fe9ca-f1de-44fa-a4e4-496bfaa2c050/adherente/"
+name: Create Adherente
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "persona": {
+        "nombre": "juan",
+        "apellido": "arango",
+        "email": "carlos@hotmail2.com",
+        "estado_civil": "casada",
+        "telefono": "1553243",
+        "sexo": "masculino",
+        "f_nacimiento": "2003-02-02",
+        "documentos": [
+          {
+            "valor": "4521",
+            "id_param_tipodoc": "dni",
+            "f_desde": "2003-02-02",
+            "f_hasta": "2028-02-02"
+          }
+        ],
+        "fotos": [
+          {
+            "url": "https://i.pinimg.com/564x/93/4c/0a/934c0a6a95b1f80ff49ca1cbefd1006a.jpg"
+          }
+        ],
+        "domicilios": [
+          {
+            "calle": "alberti",
+            "numeracion": "3876",
+            "piso": "1",
+            "departamento": "B",
+            "descripcion": "timpre rojo",
+            "codigo_postal": "1532",
+            "id_admin_param_ciudad": "18",
+            "geo_code": "19284",
+            "id_param_tipo_domicilio": 2
+          }
+        ]
+      },
+    	"parentesco": {
+        "id": "1"
+      },
+      "preexistencias": [
+        {
+          "id_diagnostico": "1",
+          "observaciones": "caso severo",
+          "f_activo_desde": "2023-02-02",
+          "f_activo_baja": "2028-02-02",
+          "id_financiadora_programa": "5b8fd2b5-5225-423e-b969-47a273974451"
+        }
+      ],
+      "coberturas": [
+        {
+          "id_motivobaja": "1",
+          "id_financiadora": "45ed3d32-cf6a-4467-be66-de4b5d05a421",
+          "numero_cobertura": "346345",
+          "f_alta": "2023-02-02",
+          "activo": true
+        }
+      ],
+      "estudiante": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674497126880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_2eec7b7632fd4d478bbe9ec7503f409a
+type: Request
+parentId: fld_482702db57e64e40b79b582fc4571339
+modified: 1677855080845
+created: 1677778867670
+url: "{{ _.base_url }}/cargar-archivo"
+name: Post cargar archivo
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_88cffc5de0484c158841d7928203db43
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/beatsweb/Downloads/nom_demi.csv
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1673554796101.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
