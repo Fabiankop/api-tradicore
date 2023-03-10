@@ -1,0 +1,30 @@
+_id: req_ed272ce7a8a047df930ce95285c56f27
+type: Request
+parentId: fld_c0505b47a28b484a8b9385e3b64520a8
+modified: 1678465034861
+created: 1678463127020
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores/{{
+  _.id_nomenclador }}/practicas"
+name: Post Practicas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigo": "9.9.9.9",
+    	"descripcion": "practicas tes"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674575191758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

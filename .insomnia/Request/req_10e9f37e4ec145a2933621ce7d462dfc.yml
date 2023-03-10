@@ -1,0 +1,21 @@
+_id: req_10e9f37e4ec145a2933621ce7d462dfc
+type: Request
+parentId: fld_565f5854ccb74e4b8b5ff9892d5d1756
+modified: 1669128288435
+created: 1669128229025
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/prestadores"
+name: Prestadores
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663644770964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_d62135dc77fb4964a18b7bb69567ca8d
+type: Request
+parentId: fld_acbbff5bb4c24461ae2dc5a90f8ca5eb
+modified: 1671205503554
+created: 1671205247879
+url: "{{ _.base_url }}/prestadores/{{ _.id_prestador }}/pacientes"
+name: Get pacientes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671205247879
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

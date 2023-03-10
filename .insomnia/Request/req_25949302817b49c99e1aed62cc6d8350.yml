@@ -1,0 +1,22 @@
+_id: req_25949302817b49c99e1aed62cc6d8350
+type: Request
+parentId: fld_911ddeec6def453585f55346ebd845f7
+modified: 1669127939357
+created: 1669127892160
+url: "{{ _.base_url }}/prestadores/prestador/perfil/especialidad?id_prestador={{
+  _.id_prestador }}"
+name: Especialidad
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669127892160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

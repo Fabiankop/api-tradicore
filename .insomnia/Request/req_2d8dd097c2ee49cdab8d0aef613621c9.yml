@@ -1,0 +1,41 @@
+_id: req_2d8dd097c2ee49cdab8d0aef613621c9
+type: Request
+parentId: fld_95fe0f0c2aa142f288c82044a696a763
+modified: 1678383558229
+created: 1677685225953
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores"
+name: Post nomencladores
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_21443f5c4cca45eab5d239fe60e26500
+      name: nombre
+      value: nomenclador nacional
+      description: ""
+      type: text
+      multiline: false
+    - id: pair_53f7effe2475492899906099043a3491
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/beatsweb/Downloads/nom_demi.csv
+    - id: pair_523909afc8d74528bd814ba7e988450c
+      name: activo
+      value: "True"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1676177683681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

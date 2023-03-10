@@ -1,0 +1,21 @@
+_id: req_cad29c8e23984ef3867d2de5f61f9c84
+type: Request
+parentId: fld_0ff7e86f8b0f4abf81bc2136cbf3f756
+modified: 1674594021958
+created: 1674593826867
+url: "{{ _.base_url }}/personas/{{ _.persona_id }}"
+name: Obtener persona por id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652636198132.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

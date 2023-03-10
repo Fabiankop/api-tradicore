@@ -1,0 +1,21 @@
+_id: req_687fc3d2bfb7496eb6ea8534fa188298
+type: Request
+parentId: fld_482702db57e64e40b79b582fc4571339
+modified: 1669128209405
+created: 1669126844506
+url: "{{ _.base_url }}/paises"
+name: Get paises
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669126844506
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

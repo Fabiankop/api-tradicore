@@ -1,0 +1,23 @@
+_id: req_3790a1d6251742198449a9955d4037fb
+type: Request
+parentId: fld_d9f7dcfa991d4b14aa24d6cd3348067e
+modified: 1674665556509
+created: 1669127553045
+url: "{{ _.base_url
+  }}/prestadores/prestador/perfil/financiadoras/7dd6fbad-e521-46d6-87ed-a2b56bd\
+  91c63"
+name: Financiadoras
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669127553045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
