@@ -1,0 +1,30 @@
+_id: req_db6c6e9a99d74964a79a52acacb19895
+type: Request
+parentId: fld_c0505b47a28b484a8b9385e3b64520a8
+modified: 1678727191432
+created: 1678715638449
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores/{{
+  _.id_nomenclador }}/practicas/0d476832-1573-405c-aa8c-c7413e891e84"
+name: Delete Practicas
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_b2d1a332999240f8a1dc4cf341b0c1ef
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674570197523.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: env_3f316cec8eab472c8914b0020711c5e0
 type: Environment
 parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
-modified: 1674590962411
+modified: 1678729759298
 created: 1668128649689
 name: Prod Traditum
 data:
@@ -14,6 +14,7 @@ data:
   id_estado: 1
   id_programa: 5b8fd2b5-5225-423e-b969-47a273974451
   id_adherente: 8296a271-3d0b-4a0b-ae0f-dc3295caa955
+  id_nomenclador: ab056192-0be0-4538-8358-43ce05fe4fc6
 dataPropertyOrder:
   "&":
     - base_url
@@ -25,6 +26,7 @@ dataPropertyOrder:
     - id_estado
     - id_programa
     - id_adherente
+    - id_nomenclador
 color: "#20b503"
 isPrivate: false
 metaSortKey: 1668128649689

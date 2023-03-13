@@ -1,7 +1,7 @@
 _id: env_24880616d3e94bacb64dcec6da12fbd3
 type: Environment
 parentId: env_3d1379e3ae123013a2c433dbefc2a1d6f34ec8dc
-modified: 1678400058804
+modified: 1678479414585
 created: 1652510043656
 name: Local Traditum
 data:
@@ -17,6 +17,7 @@ data:
   id_estado: 1
   id_adherente: 8296a271-3d0b-4a0b-ae0f-dc3295caa955
   id_nomenclador: b324bfbf-09a1-47bb-8ecc-851553d3af67
+  id_practica: 2776d7b3-75b2-4a87-860f-3453123da2a6
 dataPropertyOrder:
   "&":
     - base_url
@@ -31,6 +32,7 @@ dataPropertyOrder:
     - id_estado
     - id_adherente
     - id_nomenclador
+    - id_practica
 color: "#ffa305"
 isPrivate: false
 metaSortKey: 1652510043656

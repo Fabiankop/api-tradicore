@@ -1,7 +1,7 @@
 _id: req_c6a31775d37c4ad4a6c2d869a657d5cc
 type: Request
 parentId: fld_c0505b47a28b484a8b9385e3b64520a8
-modified: 1678466862332
+modified: 1678728736095
 created: 1678376369568
 url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores/{{
   _.id_nomenclador }}/practicas"
@@ -9,11 +9,7 @@ name: Get practicas by nomenclador
 description: ""
 method: GET
 body: {}
-parameters:
-  - id: pair_18bebc1b1d1f4578a2d055fa9578c3e8
-    name: codigo
-    value: 9.9.9.9
-    description: ""
+parameters: []
 headers: []
 authentication: {}
 metaSortKey: -1674575191808

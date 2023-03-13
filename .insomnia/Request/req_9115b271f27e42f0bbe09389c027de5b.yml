@@ -1,0 +1,30 @@
+_id: req_9115b271f27e42f0bbe09389c027de5b
+type: Request
+parentId: fld_c0505b47a28b484a8b9385e3b64520a8
+modified: 1678479467345
+created: 1678479299446
+url: "{{ _.base_url }}/financiadoras/{{ _.id_financiador }}/nomencladores/{{
+  _.id_nomenclador }}/practicas/{{ _.id_practica }}"
+name: Put Practicas
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"codigo": "10.9.9.9",
+    		"descripcion": "practicas tes"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674571862268.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

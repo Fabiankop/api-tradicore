@@ -1,14 +1,18 @@
 _id: req_8c19cc50e2ae464ebe2fb2b6087c65e7
 type: Request
 parentId: fld_2bc4ff0a7a184269b544893cc020f901
-modified: 1678473374195
+modified: 1678730429912
 created: 1673578260945
 url: "{{ _.base_url }}/financiadoras/"
 name: Get Financiadoras
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_7e71b4b8f9fd41b8bcbc56c39f0f8a1b
+    name: limit
+    value: "200"
+    description: ""
 headers: []
 authentication: {}
 metaSortKey: -1677994384394
